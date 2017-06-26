@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BasicNFP_Types" version="4">
+  <OBJECT>
+    <ID name="BasicNFP_Types" mc="Standard.Package" uid="d8a944ff-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTELibrary" mc="Standard.Package" uid="efac0edf-c384-4652-815f-f28a1154d046"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BasicNFP_Types]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AperiodicPattern" mc="Standard.DataType" uid="da9dec4a-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="ArrivalPattern" mc="Standard.DataType" uid="da9dec44-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="BurstPattern" mc="Standard.DataType" uid="da9dec4c-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="ClosedPattern" mc="Standard.DataType" uid="daa04e93-0cce-11df-8525-001302895b2b"/>
+        <OBJECT>
+          <ID name="DirectionKind" mc="Standard.Enumeration" uid="da51a204-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[DirectionKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="incr" mc="Standard.EnumerationLiteral" uid="da51a205-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[incr]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="decr" mc="Standard.EnumerationLiteral" uid="da51a206-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[decr]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="IrregularPattern" mc="Standard.DataType" uid="da9dec4e-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Area" mc="Standard.DataType" uid="da9927a2-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Boolean" mc="Standard.DataType" uid="da64b490-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_CommonType" mc="Standard.DataType" uid="da51a211-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_DataSize" mc="Standard.DataType" uid="da8f9e56-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_DataTxRate" mc="Standard.DataType" uid="da83b2bc-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_DateTime" mc="Standard.DataType" uid="da7c8bc5-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Duration" mc="Standard.DataType" uid="d9f24532-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Energy" mc="Standard.DataType" uid="da9200ac-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Frequency" mc="Standard.DataType" uid="da45b669-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Integer" mc="Standard.DataType" uid="d9f96c29-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Length" mc="Standard.DataType" uid="da96c54e-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Natural" mc="Standard.DataType" uid="da4818c0-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Percentage" mc="Standard.DataType" uid="daa9d7df-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Power" mc="Standard.DataType" uid="da8ad9b4-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Price" mc="Standard.DataType" uid="daae9c86-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Real" mc="Standard.DataType" uid="da7564d0-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_String" mc="Standard.DataType" uid="da70a02e-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="NFP_Weight" mc="Standard.DataType" uid="dab36125-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="OpenPattern" mc="Standard.DataType" uid="daa04e97-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="PeriodicPattern" mc="Standard.DataType" uid="da9dec48-0cce-11df-8525-001302895b2b"/>
+        <OBJECT>
+          <ID name="SourceKind" mc="Standard.Enumeration" uid="da4f3faf-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[SourceKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="est" mc="Standard.EnumerationLiteral" uid="da51a200-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[est]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="meas" mc="Standard.EnumerationLiteral" uid="da51a201-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[meas]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="calc" mc="Standard.EnumerationLiteral" uid="da51a202-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[calc]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="req" mc="Standard.EnumerationLiteral" uid="da51a203-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[req]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="SporadicPattern" mc="Standard.DataType" uid="daa04e95-0cce-11df-8525-001302895b2b"/>
+        <OBJECT>
+          <ID name="StatisticalQualifierKind" mc="Standard.Enumeration" uid="da51a207-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[StatisticalQualifierKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="max" mc="Standard.EnumerationLiteral" uid="da51a208-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[max]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="min" mc="Standard.EnumerationLiteral" uid="da51a209-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[min]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="mean" mc="Standard.EnumerationLiteral" uid="da51a20a-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[mean]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="range" mc="Standard.EnumerationLiteral" uid="da51a20b-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[range]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="percent" mc="Standard.EnumerationLiteral" uid="da51a20c-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[percent]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="distrib" mc="Standard.EnumerationLiteral" uid="da51a20d-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[distrib]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="determ" mc="Standard.EnumerationLiteral" uid="da51a20e-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[determ]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="other" mc="Standard.EnumerationLiteral" uid="da51a20f-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[other]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="variance" mc="Standard.EnumerationLiteral" uid="da51a210-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[variance]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

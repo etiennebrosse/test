@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="refinedfunctionalspecification" version="4">
+  <OBJECT>
+    <ID name="refinedfunctionalspecification" mc="Infrastructure.Stereotype" uid="72835f08-73e7-40bf-aec0-9d935669d3ac"/>
+    <PID name="CPSWarm" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/icons/refinedfunctionalspecification.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/icons/refinedfunctionalspecification.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.refinedfunctionalspecification.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Package]]></ATT>
+      <ATT name="Name"><![CDATA[refinedfunctionalspecification]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

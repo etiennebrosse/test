@@ -1,0 +1,231 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GaExecHost_Parameter" version="4">
+  <OBJECT>
+    <ID name="GaExecHost_Parameter" mc="Infrastructure.Stereotype" uid="0360f842-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_AnalysisModel::GQAM" mc="Infrastructure.Profile" uid="02644261-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/parameter.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.GaExecHost_Parameter.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Parameter]]></ATT>
+      <ATT name="Name"><![CDATA[GaExecHost_Parameter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="ComputingResource_Parameter" mc="Infrastructure.Stereotype" uid="009a84ce-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_commTxOvh" mc="Infrastructure.TagType" uid="03635a94-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_commTxOvh.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_commTxOvh]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_commRcvOvh" mc="Infrastructure.TagType" uid="03635a9b-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_commRcvOvh.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_commRcvOvh]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_cntxtSwT" mc="Infrastructure.TagType" uid="03635aa2-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_cntxtSwT.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_cntxtSwT]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_clockOvh" mc="Infrastructure.TagType" uid="0365bce8-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_clockOvh.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_clockOvh]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_schedPriRange" mc="Infrastructure.TagType" uid="0365bcef-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_schedPriRange.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_schedPriRange]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_memSize" mc="Infrastructure.TagType" uid="0365bcf6-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_memSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_memSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_utilization" mc="Infrastructure.TagType" uid="0365bcfd-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_utilization.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_utilization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_throughput" mc="Infrastructure.TagType" uid="0365bd04-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_throughput.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_throughput]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_isPreemptible" mc="Infrastructure.TagType" uid="197239fd-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_isPreemptible.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_isPreemptible]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_schedPolicy" mc="Infrastructure.TagType" uid="197239fe-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_schedPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_schedPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_otherSchedPolicy" mc="Infrastructure.TagType" uid="197239ff-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_otherSchedPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_otherSchedPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_schedule" mc="Infrastructure.TagType" uid="19723a00-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_schedule.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_schedule]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_processingUnits" mc="Infrastructure.TagType" uid="19723a01-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_processingUnits.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_processingUnits]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_host" mc="Infrastructure.TagType" uid="19723a02-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_host.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_host]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_protectedSharedResources" mc="Infrastructure.TagType" uid="19723a03-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_protectedSharedResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_protectedSharedResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Parameter_schedulableResources" mc="Infrastructure.TagType" uid="19723a04-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Parameter_schedulableResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Parameter_schedulableResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

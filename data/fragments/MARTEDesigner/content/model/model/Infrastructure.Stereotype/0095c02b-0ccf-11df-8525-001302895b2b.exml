@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CommunicationMedia_Lifeline" version="4">
+  <OBJECT>
+    <ID name="CommunicationMedia_Lifeline" mc="Infrastructure.Stereotype" uid="0095c02b-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Foundations::GRM" mc="Infrastructure.Profile" uid="ff9dcedd-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/lifeline.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.CommunicationMedia_Lifeline.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Lifeline]]></ATT>
+      <ATT name="Name"><![CDATA[CommunicationMedia_Lifeline]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="ProcessingResource_Lifeline" mc="Infrastructure.Stereotype" uid="aa368037-1018-11df-86fe-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="CommunicationMedia_Lifeline_elementSize" mc="Infrastructure.TagType" uid="0095c032-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.CommunicationMedia_Lifeline_elementSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[CommunicationMedia_Lifeline_elementSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CommunicationMedia_Lifeline_transmMode" mc="Infrastructure.TagType" uid="0095c039-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.CommunicationMedia_Lifeline_transmMode.label]]></ATT>
+            <ATT name="Name"><![CDATA[CommunicationMedia_Lifeline_transmMode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CommunicationMedia_Lifeline_blockT" mc="Infrastructure.TagType" uid="00982280-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.CommunicationMedia_Lifeline_blockT.label]]></ATT>
+            <ATT name="Name"><![CDATA[CommunicationMedia_Lifeline_blockT]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CommunicationMedia_Lifeline_packetT" mc="Infrastructure.TagType" uid="00982287-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.CommunicationMedia_Lifeline_packetT.label]]></ATT>
+            <ATT name="Name"><![CDATA[CommunicationMedia_Lifeline_packetT]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CommunicationMedia_Lifeline_capacity" mc="Infrastructure.TagType" uid="0098228e-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.CommunicationMedia_Lifeline_capacity.label]]></ATT>
+            <ATT name="Name"><![CDATA[CommunicationMedia_Lifeline_capacity]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

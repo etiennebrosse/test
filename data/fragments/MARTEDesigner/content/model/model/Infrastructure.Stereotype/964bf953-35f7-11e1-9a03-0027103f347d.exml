@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TimedDurationObservation_Constraint" version="4">
+  <OBJECT>
+    <ID name="TimedDurationObservation_Constraint" mc="Infrastructure.Stereotype" uid="964bf953-35f7-11e1-9a03-0027103f347d"/>
+    <PID name="MARTE::MARTE_Foundations::Time" mc="Infrastructure.Profile" uid="dac1af0e-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTE/res/bmp/constraint.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.TimedDurationObservation_Constraint.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Constraint]]></ATT>
+      <ATT name="Name"><![CDATA[TimedDurationObservation_Constraint]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="TimedDurationObservation_Constraint_obsKind" mc="Infrastructure.TagType" uid="964bf956-35f7-11e1-9a03-0027103f347d"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.TimedDurationObservation_Constraint_obsKind.label]]></ATT>
+            <ATT name="Name"><![CDATA[TimedDurationObservation_Constraint_obsKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TimedDurationObservation_Constraint_on" mc="Infrastructure.TagType" uid="964c2064-35f7-11e1-9a03-0027103f347d"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.TimedDurationObservation_Constraint_on.label]]></ATT>
+            <ATT name="Name"><![CDATA[TimedDurationObservation_Constraint_on]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwTimingResource_Instance" version="4">
+  <OBJECT>
+    <ID name="HwTimingResource_Instance" mc="Infrastructure.Stereotype" uid="01226916-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwTiming" mc="Infrastructure.Profile" uid="011da479-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/HwTimingResource_instance.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwTimingResource_Instance.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Instance]]></ATT>
+      <ATT name="Name"><![CDATA[HwTimingResource_Instance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="TimingResource_Instance" mc="Infrastructure.Stereotype" uid="009ce725-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwTimingResource_Instance_description" mc="Infrastructure.TagType" uid="4739bd46-162a-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwTimingResource_Instance_description.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwTimingResource_Instance_description]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwTimingResource_Instance_p_HW_Services" mc="Infrastructure.TagType" uid="4739bd47-162a-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwTimingResource_Instance_p_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwTimingResource_Instance_p_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwTimingResource_Instance_r_HW_Services" mc="Infrastructure.TagType" uid="4739bd48-162a-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwTimingResource_Instance_r_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwTimingResource_Instance_r_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwTimingResource_Instance_ownedHW" mc="Infrastructure.TagType" uid="4739bd49-162a-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwTimingResource_Instance_ownedHW.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwTimingResource_Instance_ownedHW]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwTimingResource_Instance_endPoints" mc="Infrastructure.TagType" uid="bd3df176-1709-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwTimingResource_Instance_endPoints.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwTimingResource_Instance_endPoints]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwTimingResource_Instance_frequency" mc="Infrastructure.TagType" uid="6d35e095-8dfb-11e0-8741-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwTimingResource_Instance_frequency.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwTimingResource_Instance_frequency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwResourceService_Collaboration" version="4">
+  <OBJECT>
+    <ID name="HwResourceService_Collaboration" mc="Infrastructure.Stereotype" uid="019e61b9-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwGeneral" mc="Infrastructure.Profile" uid="01973ad0-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/collaboration.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwResourceService_Collaboration.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Collaboration]]></ATT>
+      <ATT name="Name"><![CDATA[HwResourceService_Collaboration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="GrService_Collaboration" mc="Infrastructure.Stereotype" uid="00a67068-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwResourceService_Collaboration_consumption" mc="Infrastructure.TagType" uid="21247ef7-1241-11df-8f55-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResourceService_Collaboration_consumption.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResourceService_Collaboration_consumption]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResourceService_Collaboration_dissipation" mc="Infrastructure.TagType" uid="21247ef6-1241-11df-8f55-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResourceService_Collaboration_dissipation.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResourceService_Collaboration_dissipation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MemoryPartition_AssociationEnd" version="4">
+  <OBJECT>
+    <ID name="MemoryPartition_AssociationEnd" mc="Infrastructure.Stereotype" uid="01e5e754-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Concurrency" mc="Infrastructure.Profile" uid="01a7eb0f-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/MemoryPartition_associationend.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.MemoryPartition_AssociationEnd.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.AssociationEnd]]></ATT>
+      <ATT name="Name"><![CDATA[MemoryPartition_AssociationEnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="01a3265c-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="MemoryPartition_AssociationEnd_concurrentResources" mc="Infrastructure.TagType" uid="229c0e29-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryPartition_AssociationEnd_concurrentResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryPartition_AssociationEnd_concurrentResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryPartition_AssociationEnd_memorySpaces" mc="Infrastructure.TagType" uid="229c0e2a-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryPartition_AssociationEnd_memorySpaces.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryPartition_AssociationEnd_memorySpaces]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryPartition_AssociationEnd_fork" mc="Infrastructure.TagType" uid="229c0e2b-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryPartition_AssociationEnd_fork.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryPartition_AssociationEnd_fork]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryPartition_AssociationEnd_exit" mc="Infrastructure.TagType" uid="229c0e2c-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryPartition_AssociationEnd_exit.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryPartition_AssociationEnd_exit]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

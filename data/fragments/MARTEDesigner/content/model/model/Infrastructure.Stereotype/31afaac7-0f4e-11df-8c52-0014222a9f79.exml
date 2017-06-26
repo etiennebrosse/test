@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SchedulableResource_Classifier" version="4">
+  <OBJECT>
+    <ID name="SchedulableResource_Classifier" mc="Infrastructure.Stereotype" uid="31afaac7-0f4e-11df-8c52-0014222a9f79"/>
+    <PID name="MARTE::MARTE_Foundations::GRM" mc="Infrastructure.Profile" uid="ff9dcedd-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SchedulableResource_Classifier.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Classifier]]></ATT>
+      <ATT name="Name"><![CDATA[SchedulableResource_Classifier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="Resource_Classifier" mc="Infrastructure.Stereotype" uid="7fc9127e-101a-11df-86fe-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SchedulableResource_Classifier_schedParams" mc="Infrastructure.TagType" uid="4d5274e0-14c6-11df-92f7-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SchedulableResource_Classifier_schedParams.label]]></ATT>
+            <ATT name="Name"><![CDATA[SchedulableResource_Classifier_schedParams]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SchedulableResource_Classifier_host" mc="Infrastructure.TagType" uid="551488be-14c6-11df-92f7-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SchedulableResource_Classifier_host.label]]></ATT>
+            <ATT name="Name"><![CDATA[SchedulableResource_Classifier_host]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SchedulableResource_Classifier_dependentScheduler" mc="Infrastructure.TagType" uid="5a638e0a-14c6-11df-92f7-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SchedulableResource_Classifier_dependentScheduler.label]]></ATT>
+            <ATT name="Name"><![CDATA[SchedulableResource_Classifier_dependentScheduler]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

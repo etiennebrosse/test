@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TimedObservation_Note" version="4">
+  <OBJECT>
+    <ID name="TimedObservation_Note" mc="Infrastructure.Stereotype" uid="65426dcf-2210-11df-b40d-0014224f9977"/>
+    <PID name="MARTE::MARTE_Foundations::Time" mc="Infrastructure.Profile" uid="dac1af0e-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.TimedObservation_Note.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.Note]]></ATT>
+      <ATT name="Name"><![CDATA[TimedObservation_Note]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

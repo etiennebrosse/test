@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::SRM::SW_ResourceCore" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::SRM::SW_ResourceCore" mc="Infrastructure.Profile" uid="019e61c2-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::SRM::SW_ResourceCore]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="SwAccessService_Behavior" mc="Infrastructure.Stereotype" uid="01a7eb00-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwAccessService_Collaboration" mc="Infrastructure.Stereotype" uid="01a7eb01-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwAccessService_CollaborationUse" mc="Infrastructure.Stereotype" uid="01a7eb02-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwAccessService_ExecutionSpecification" mc="Infrastructure.Stereotype" uid="01a588c6-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwAccessService_Operation" mc="Infrastructure.Stereotype" uid="01a588c7-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwResource_Association" mc="Infrastructure.Stereotype" uid="3e58228c-10c0-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="01a3265c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwResource_Attribute" mc="Infrastructure.Stereotype" uid="01a3265e-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwResource_Classifier" mc="Infrastructure.Stereotype" uid="3e9ae4b8-10c0-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwResource_Instance" mc="Infrastructure.Stereotype" uid="01a32661-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwResource_Lifeline" mc="Infrastructure.Stereotype" uid="3e7983a2-10c0-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwResource_Link" mc="Infrastructure.Stereotype" uid="01a32660-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwResource_Parameter" mc="Infrastructure.Stereotype" uid="01a0c40a-0ccf-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SwMutualExclusionResource_AssociationEnd" version="4">
+  <OBJECT>
+    <ID name="SwMutualExclusionResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="02407f80-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Interaction" mc="Infrastructure.Profile" uid="020747eb-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/SwMutualExclusionResource_associationend.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SwMutualExclusionResource_AssociationEnd.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.AssociationEnd]]></ATT>
+      <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwSynchronizationResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="0217f80f-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_mechanism" mc="Infrastructure.TagType" uid="02454425-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_mechanism.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_mechanism]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_concurrentAccessProtocol" mc="Infrastructure.TagType" uid="0245442c-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_concurrentAccessProtocol.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_concurrentAccessProtocol]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_accessTokenElements" mc="Infrastructure.TagType" uid="02454433-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_accessTokenElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_accessTokenElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_releaseServices" mc="Infrastructure.TagType" uid="0245443a-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_releaseServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_releaseServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_acquireServices" mc="Infrastructure.TagType" uid="02454441-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_acquireServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_acquireServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_protectKind" mc="Infrastructure.TagType" uid="deff4e19-92ad-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_protectKind.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_protectKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_ceiling" mc="Infrastructure.TagType" uid="deff4e1a-92ad-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_ceiling.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_ceiling]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_otherProtectProtocol" mc="Infrastructure.TagType" uid="deff4e1b-92ad-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_otherProtectProtocol.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_otherProtectProtocol]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwMutualExclusionResource_AssociationEnd_scheduler" mc="Infrastructure.TagType" uid="deff4e1c-92ad-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwMutualExclusionResource_AssociationEnd_scheduler.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwMutualExclusionResource_AssociationEnd_scheduler]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Assign_Note" version="4">
+  <OBJECT>
+    <ID name="Assign_Note" mc="Infrastructure.Stereotype" uid="ae295656-11a1-11df-b398-0014222a9f79"/>
+    <PID name="MARTE::MARTE_Foundations::Alloc" mc="Infrastructure.Profile" uid="00ad9769-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">true</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Assign_Note.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.Note]]></ATT>
+      <ATT name="Name"><![CDATA[Assign_Note]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="Assign_Note_kind" mc="Infrastructure.TagType" uid="5b662511-11a2-11df-b398-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Assign_Note_kind.label]]></ATT>
+            <ATT name="Name"><![CDATA[Assign_Note_kind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Assign_Note_nature" mc="Infrastructure.TagType" uid="617d6c19-11a2-11df-b398-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Assign_Note_nature.label]]></ATT>
+            <ATT name="Name"><![CDATA[Assign_Note_nature]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Assign_Note_from" mc="Infrastructure.TagType" uid="686da9d5-11a2-11df-b398-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Assign_Note_from.label]]></ATT>
+            <ATT name="Name"><![CDATA[Assign_Note_from]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Assign_Note_to" mc="Infrastructure.TagType" uid="6c039631-11a2-11df-b398-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Assign_Note_to.label]]></ATT>
+            <ATT name="Name"><![CDATA[Assign_Note_to]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Assign_Note_impliedConstraint" mc="Infrastructure.TagType" uid="6eb70269-11a2-11df-b398-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Assign_Note_impliedConstraint.label]]></ATT>
+            <ATT name="Name"><![CDATA[Assign_Note_impliedConstraint]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,257 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SwConcurrentResource_Lifeline" version="4">
+  <OBJECT>
+    <ID name="SwConcurrentResource_Lifeline" mc="Infrastructure.Stereotype" uid="87de8379-10d0-11df-81d9-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Concurrency" mc="Infrastructure.Profile" uid="01a7eb0f-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/lifeline.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SwConcurrentResource_Lifeline.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Lifeline]]></ATT>
+      <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwResource_Lifeline" mc="Infrastructure.Stereotype" uid="3e7983a2-10c0-11df-81d9-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_type" mc="Infrastructure.TagType" uid="cdc06a09-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_type.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_type]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_activationCapacity" mc="Infrastructure.TagType" uid="cdc06a0a-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_activationCapacity.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_activationCapacity]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_entryPoints" mc="Infrastructure.TagType" uid="cdc06a0b-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_entryPoints.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_entryPoints]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_adressSpace" mc="Infrastructure.TagType" uid="cdc06a0c-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_adressSpace.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_adressSpace]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_periodElements" mc="Infrastructure.TagType" uid="cdc06a0d-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_periodElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_periodElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_priorityElements" mc="Infrastructure.TagType" uid="cdc06a0e-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_priorityElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_priorityElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_stackSizeElements" mc="Infrastructure.TagType" uid="cdc06a0f-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_stackSizeElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_stackSizeElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_activateServices" mc="Infrastructure.TagType" uid="cdc06a10-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_activateServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_activateServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_enableConcurrencyServices" mc="Infrastructure.TagType" uid="cdc06a11-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_enableConcurrencyServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_enableConcurrencyServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_resumeServices" mc="Infrastructure.TagType" uid="cdc06a12-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_resumeServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_resumeServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_suspendServices" mc="Infrastructure.TagType" uid="cdc06a13-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_suspendServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_suspendServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_terminateServices" mc="Infrastructure.TagType" uid="cdc06a14-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_terminateServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_terminateServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_disableConcurrencyServices" mc="Infrastructure.TagType" uid="cdc06a15-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_disableConcurrencyServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_disableConcurrencyServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_shareDataResources" mc="Infrastructure.TagType" uid="cdc06a16-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_shareDataResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_shareDataResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_messageResources" mc="Infrastructure.TagType" uid="cdc06a17-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_messageResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_messageResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_mutualExclusionResources" mc="Infrastructure.TagType" uid="cdc06a18-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_mutualExclusionResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_mutualExclusionResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_notificationResources" mc="Infrastructure.TagType" uid="cdc06a19-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_notificationResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_notificationResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwConcurrentResource_Lifeline_heapSizeElements" mc="Infrastructure.TagType" uid="cdc06a1a-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwConcurrentResource_Lifeline_heapSizeElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwConcurrentResource_Lifeline_heapSizeElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

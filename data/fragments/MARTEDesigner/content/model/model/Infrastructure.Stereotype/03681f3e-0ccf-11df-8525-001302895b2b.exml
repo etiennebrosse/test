@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GaCommHost_Instance" version="4">
+  <OBJECT>
+    <ID name="GaCommHost_Instance" mc="Infrastructure.Stereotype" uid="03681f3e-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_AnalysisModel::GQAM" mc="Infrastructure.Profile" uid="02644261-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/instance.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.GaCommHost_Instance.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Instance]]></ATT>
+      <ATT name="Name"><![CDATA[GaCommHost_Instance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="CommunicationMedia_Instance" mc="Infrastructure.Stereotype" uid="0095c030-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="GaCommHost_Instance_throughput" mc="Infrastructure.TagType" uid="036ce3df-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_throughput.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_throughput]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_utilization" mc="Infrastructure.TagType" uid="036ce3e6-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_utilization.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_utilization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_isPreemptible" mc="Infrastructure.TagType" uid="9c80f901-1669-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_isPreemptible.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_isPreemptible]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_schedPolicy" mc="Infrastructure.TagType" uid="9c80f902-1669-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_schedPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_schedPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_otherSchedPolicy" mc="Infrastructure.TagType" uid="9c80f903-1669-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_otherSchedPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_otherSchedPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_schedule" mc="Infrastructure.TagType" uid="9c80f904-1669-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_schedule.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_schedule]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_processingUnits" mc="Infrastructure.TagType" uid="9c80f905-1669-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_processingUnits.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_processingUnits]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_host" mc="Infrastructure.TagType" uid="9c80f906-1669-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_host.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_host]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_protectedSharedResources" mc="Infrastructure.TagType" uid="9c80f907-1669-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_protectedSharedResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_protectedSharedResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaCommHost_Instance_schedulableResources" mc="Infrastructure.TagType" uid="9c80f908-1669-11df-b9be-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaCommHost_Instance_schedulableResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaCommHost_Instance_schedulableResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

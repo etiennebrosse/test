@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwDevice_AssociationEnd" version="4">
+  <OBJECT>
+    <ID name="HwDevice_AssociationEnd" mc="Infrastructure.Stereotype" uid="0130b6fd-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwDevice" mc="Infrastructure.Profile" uid="012e54c2-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/HwDevice_associationend.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwDevice_AssociationEnd.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.AssociationEnd]]></ATT>
+      <ATT name="Name"><![CDATA[HwDevice_AssociationEnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="HwResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="00dae374-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwDevice_AssociationEnd_speedFactor" mc="Infrastructure.TagType" uid="4e695867-92ab-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwDevice_AssociationEnd_speedFactor.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwDevice_AssociationEnd_speedFactor]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwDevice_AssociationEnd_mainScheduler" mc="Infrastructure.TagType" uid="4e695868-92ab-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwDevice_AssociationEnd_mainScheduler.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwDevice_AssociationEnd_mainScheduler]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

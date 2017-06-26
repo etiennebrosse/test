@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SwSchedulableResource_Link" version="4">
+  <OBJECT>
+    <ID name="SwSchedulableResource_Link" mc="Infrastructure.Stereotype" uid="01d7996c-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Concurrency" mc="Infrastructure.Profile" uid="01a7eb0f-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/SwSchedulableResource_link.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SwSchedulableResource_Link.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Link]]></ATT>
+      <ATT name="Name"><![CDATA[SwSchedulableResource_Link]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwConcurrentResource_Link" mc="Infrastructure.Stereotype" uid="01b3d69e-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_isStaticSchedulingFeature" mc="Infrastructure.TagType" uid="ddea5e0d-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_isStaticSchedulingFeature.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_isStaticSchedulingFeature]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_isPreemptable" mc="Infrastructure.TagType" uid="ddea5e0e-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_isPreemptable.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_isPreemptable]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_schedulers" mc="Infrastructure.TagType" uid="ddea5e0f-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_schedulers.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_schedulers]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_deadlineElements" mc="Infrastructure.TagType" uid="ddea5e10-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_deadlineElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_deadlineElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_deadlineTypeElements" mc="Infrastructure.TagType" uid="ddea5e11-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_deadlineTypeElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_deadlineTypeElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_timeSliceElements" mc="Infrastructure.TagType" uid="ddea5e12-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_timeSliceElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_timeSliceElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_delayServices" mc="Infrastructure.TagType" uid="ddea5e13-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_delayServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_delayServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_joinServices" mc="Infrastructure.TagType" uid="ddea5e14-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_joinServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_joinServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_yieldServices" mc="Infrastructure.TagType" uid="ddea5e15-172c-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_yieldServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_yieldServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_schedParams" mc="Infrastructure.TagType" uid="973fcdf7-92ac-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_schedParams.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_schedParams]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_host" mc="Infrastructure.TagType" uid="973fcdf6-92ac-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_host.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_host]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwSchedulableResource_Link_dependentScheduler" mc="Infrastructure.TagType" uid="973fcdf5-92ac-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwSchedulableResource_Link_dependentScheduler.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwSchedulableResource_Link_dependentScheduler]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

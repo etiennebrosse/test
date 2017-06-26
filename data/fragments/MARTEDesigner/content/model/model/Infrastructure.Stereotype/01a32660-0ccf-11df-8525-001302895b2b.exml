@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SwResource_Link" version="4">
+  <OBJECT>
+    <ID name="SwResource_Link" mc="Infrastructure.Stereotype" uid="01a32660-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_ResourceCore" mc="Infrastructure.Profile" uid="019e61c2-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[MARTEDesigner/res/icons/connector.png]]></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/connector.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SwResource_Link.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Link]]></ATT>
+      <ATT name="Name"><![CDATA[SwResource_Link]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="Resource_Link" mc="Infrastructure.Stereotype" uid="ff9dcee2-0cce-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SwResource_Link_identifierElements" mc="Infrastructure.TagType" uid="01a32667-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwResource_Link_identifierElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwResource_Link_identifierElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwResource_Link_stateElements" mc="Infrastructure.TagType" uid="01a3266e-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwResource_Link_stateElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwResource_Link_stateElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwResource_Link_memorySizeFootprint" mc="Infrastructure.TagType" uid="01a588ae-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwResource_Link_memorySizeFootprint.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwResource_Link_memorySizeFootprint]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwResource_Link_createServices" mc="Infrastructure.TagType" uid="01a588b5-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwResource_Link_createServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwResource_Link_createServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwResource_Link_deleteServices" mc="Infrastructure.TagType" uid="01a588bc-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwResource_Link_deleteServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwResource_Link_deleteServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwResource_Link_initializeServices" mc="Infrastructure.TagType" uid="01a588c3-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwResource_Link_initializeServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwResource_Link_initializeServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

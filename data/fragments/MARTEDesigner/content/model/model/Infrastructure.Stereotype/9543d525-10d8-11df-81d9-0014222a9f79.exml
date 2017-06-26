@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MessageComResource_Association" version="4">
+  <OBJECT>
+    <ID name="MessageComResource_Association" mc="Infrastructure.Stereotype" uid="9543d525-10d8-11df-81d9-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Interaction" mc="Infrastructure.Profile" uid="020747eb-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/MessageComResource_association.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.MessageComResource_Association.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Association]]></ATT>
+      <ATT name="Name"><![CDATA[MessageComResource_Association]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwCommunicationResource_Association" mc="Infrastructure.Stereotype" uid="595ed6e2-10d8-11df-81d9-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="MessageComResource_Association_isFixedMessageSize" mc="Infrastructure.TagType" uid="9543d528-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Association_isFixedMessageSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Association_isFixedMessageSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Association_mechanism" mc="Infrastructure.TagType" uid="9543d52b-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Association_mechanism.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Association_mechanism]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Association_messageSizeElements" mc="Infrastructure.TagType" uid="9543d52c-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Association_messageSizeElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Association_messageSizeElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Association_messageQueueCapacityElements" mc="Infrastructure.TagType" uid="9543d526-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Association_messageQueueCapacityElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Association_messageQueueCapacityElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Association_messageQueuePolicy" mc="Infrastructure.TagType" uid="9543d527-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Association_messageQueuePolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Association_messageQueuePolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Association_sendServices" mc="Infrastructure.TagType" uid="9543d529-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Association_sendServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Association_sendServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Association_receiveServices" mc="Infrastructure.TagType" uid="9543d52a-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Association_receiveServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Association_receiveServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

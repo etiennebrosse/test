@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwPLD_Parameter" version="4">
+  <OBJECT>
+    <ID name="HwPLD_Parameter" mc="Infrastructure.Stereotype" uid="00eb93b2-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwComputing" mc="Infrastructure.Profile" uid="00d15a43-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/parameter.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwPLD_Parameter.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Parameter]]></ATT>
+      <ATT name="Name"><![CDATA[HwPLD_Parameter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="HwComputingResource_Parameter" mc="Infrastructure.Stereotype" uid="00d61ed0-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwPLD_Parameter_technology" mc="Infrastructure.TagType" uid="00f2baae-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwPLD_Parameter_technology.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwPLD_Parameter_technology]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwPLD_Parameter_organization" mc="Infrastructure.TagType" uid="00f2bab5-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwPLD_Parameter_organization.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwPLD_Parameter_organization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwPLD_Parameter_nbLUTs" mc="Infrastructure.TagType" uid="00f2babc-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwPLD_Parameter_nbLUTs.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwPLD_Parameter_nbLUTs]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwPLD_Parameter_ndLUT_Inputs" mc="Infrastructure.TagType" uid="00f2bac3-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwPLD_Parameter_ndLUT_Inputs.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwPLD_Parameter_ndLUT_Inputs]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwPLD_Parameter_nbFlipFlops" mc="Infrastructure.TagType" uid="00f2baca-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwPLD_Parameter_nbFlipFlops.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwPLD_Parameter_nbFlipFlops]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwPLD_Parameter_blocksRAM" mc="Infrastructure.TagType" uid="00f2bad1-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwPLD_Parameter_blocksRAM.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwPLD_Parameter_blocksRAM]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwPLD_Parameter_blocksComputing" mc="Infrastructure.TagType" uid="00f2bad8-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwPLD_Parameter_blocksComputing.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwPLD_Parameter_blocksComputing]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

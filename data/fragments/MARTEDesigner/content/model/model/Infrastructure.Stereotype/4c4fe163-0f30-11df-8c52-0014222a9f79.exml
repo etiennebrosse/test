@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Release_CollaborationUse" version="4">
+  <OBJECT>
+    <ID name="Release_CollaborationUse" mc="Infrastructure.Stereotype" uid="4c4fe163-0f30-11df-8c52-0014222a9f79"/>
+    <PID name="MARTE::MARTE_Foundations::GRM" mc="Infrastructure.Profile" uid="ff9dcedd-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/collaborationuse.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Release_CollaborationUse.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.CollaborationUse]]></ATT>
+      <ATT name="Name"><![CDATA[Release_CollaborationUse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="GrService_CollaborationUse" mc="Infrastructure.Stereotype" uid="00a8d2ba-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

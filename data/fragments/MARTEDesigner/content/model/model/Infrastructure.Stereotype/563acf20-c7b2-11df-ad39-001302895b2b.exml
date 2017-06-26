@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwBattery_Lifeline" version="4">
+  <OBJECT>
+    <ID name="HwBattery_Lifeline" mc="Infrastructure.Stereotype" uid="563acf20-c7b2-11df-ad39-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwPhysical::HwPower" mc="Infrastructure.Profile" uid="018db194-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/HwPowerSupply_lifeline.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwBattery_Lifeline.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Lifeline]]></ATT>
+      <ATT name="Name"><![CDATA[HwBattery_Lifeline]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="HwPowerSupply_Lifeline" mc="Infrastructure.Stereotype" uid="c102c13b-10bd-11df-81d9-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwBattery_Lifeline_capacity" mc="Infrastructure.TagType" uid="563d3176-c7b2-11df-ad39-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwBattery_Lifeline_capacity.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwBattery_Lifeline_capacity]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

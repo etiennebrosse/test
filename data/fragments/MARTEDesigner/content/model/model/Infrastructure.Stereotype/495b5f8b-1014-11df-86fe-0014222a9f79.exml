@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwResource_Association" version="4">
+  <OBJECT>
+    <ID name="HwResource_Association" mc="Infrastructure.Stereotype" uid="495b5f8b-1014-11df-86fe-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwGeneral" mc="Infrastructure.Profile" uid="01973ad0-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/association.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwResource_Association.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Association]]></ATT>
+      <ATT name="Name"><![CDATA[HwResource_Association]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="Resource_Association" mc="Infrastructure.Stereotype" uid="6ee8d83a-101a-11df-86fe-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwResource_Association_description" mc="Infrastructure.TagType" uid="70448062-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Association_description.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Association_description]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Association_p_HW_Services" mc="Infrastructure.TagType" uid="70448063-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Association_p_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Association_p_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Association_r_HW_Services" mc="Infrastructure.TagType" uid="70448064-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Association_r_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Association_r_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Association_ownedHW" mc="Infrastructure.TagType" uid="7044805f-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Association_ownedHW.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Association_ownedHW]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Association_frequency" mc="Infrastructure.TagType" uid="70448061-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Association_frequency.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Association_frequency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Association_endPoints" mc="Infrastructure.TagType" uid="3186f94b-1709-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Association_endPoints.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Association_endPoints]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

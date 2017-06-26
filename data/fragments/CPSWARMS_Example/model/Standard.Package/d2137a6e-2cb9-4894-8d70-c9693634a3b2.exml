@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Swarm" version="4">
+  <OBJECT>
+    <ID name="Swarm" mc="Standard.Package" uid="d2137a6e-2cb9-4894-8d70-c9693634a3b2"/>
+    <PID name="cpswarms_example" mc="Standard.Package" uid="55dbc781-1f2f-4b6d-aac5-313c52601498"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Swarm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Sensor1" mc="Standard.Class" uid="8f6ae339-41e4-45ea-ac83-1726133dfb88"/>
+        <COMPID name="Sensor2" mc="Standard.Class" uid="5340552b-0250-4ebd-a9e9-716dd1ad865c"/>
+        <COMPID name="Sensor3" mc="Standard.Class" uid="75cf0d5f-8682-46dd-8866-c1f7b5fbc0f5"/>
+        <COMPID name="Agent" mc="Standard.Class" uid="fb961425-b073-43c2-a4f1-2588f754279c"/>
+        <COMPID name="Swarm" mc="Standard.Class" uid="32776747-56b0-4c93-a616-65269a2d0a4d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Swarm" mc="Standard.StaticDiagram" uid="ab0cc691-a8f8-489b-8bf9-1c2a49138a06"/>
+        <COMPID name="Agent" mc="Standard.ClassDiagram" uid="87aff25d-4432-4969-b4db-5237680d8224"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

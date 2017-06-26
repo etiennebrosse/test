@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Tiler_ConnectorEnd" version="4">
+  <OBJECT>
+    <ID name="Tiler_ConnectorEnd" mc="Infrastructure.Stereotype" uid="03da8e98-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Annexes::RSM" mc="Infrastructure.Profile" uid="03d367b5-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[MARTEDesigner/res/icons/associationend.png]]></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/associationend.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Tiler_ConnectorEnd.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.ConnectorEnd]]></ATT>
+      <ATT name="Name"><![CDATA[Tiler_ConnectorEnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="Tiler_ConnectorEnd_origin" mc="Infrastructure.TagType" uid="03da8e9a-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Tiler_ConnectorEnd_origin.label]]></ATT>
+            <ATT name="Name"><![CDATA[Tiler_ConnectorEnd_origin]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Tiler_ConnectorEnd_paving" mc="Infrastructure.TagType" uid="03da8e9c-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Tiler_ConnectorEnd_paving.label]]></ATT>
+            <ATT name="Name"><![CDATA[Tiler_ConnectorEnd_paving]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Tiler_ConnectorEnd_fitting" mc="Infrastructure.TagType" uid="03da8e9e-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Tiler_ConnectorEnd_fitting.label]]></ATT>
+            <ATT name="Name"><![CDATA[Tiler_ConnectorEnd_fitting]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Tiler_ConnectorEnd_tiler" mc="Infrastructure.TagType" uid="03da8ea0-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Tiler_ConnectorEnd_tiler.label]]></ATT>
+            <ATT name="Name"><![CDATA[Tiler_ConnectorEnd_tiler]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

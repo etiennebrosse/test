@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SharedDataComResource_Instance" version="4">
+  <OBJECT>
+    <ID name="SharedDataComResource_Instance" mc="Infrastructure.Stereotype" uid="0221815b-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Interaction" mc="Infrastructure.Profile" uid="020747eb-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/SharedDataComResource_instance.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SharedDataComResource_Instance.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Instance]]></ATT>
+      <ATT name="Name"><![CDATA[SharedDataComResource_Instance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwCommunicationResource_Instance" mc="Infrastructure.Stereotype" uid="0213336a-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SharedDataComResource_Instance_readServices" mc="Infrastructure.TagType" uid="02218162-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SharedDataComResource_Instance_readServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SharedDataComResource_Instance_readServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SharedDataComResource_Instance_writeServices" mc="Infrastructure.TagType" uid="02218169-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SharedDataComResource_Instance_writeServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[SharedDataComResource_Instance_writeServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

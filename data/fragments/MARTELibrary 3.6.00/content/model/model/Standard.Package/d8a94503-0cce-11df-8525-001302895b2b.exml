@@ -1,0 +1,204 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TimeLibrary" version="4">
+  <OBJECT>
+    <ID name="TimeLibrary" mc="Standard.Package" uid="d8a94503-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTELibrary" mc="Standard.Package" uid="efac0edf-c384-4652-815f-f28a1154d046"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[TimeLibrary]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Declared">
+        <OBJECT>
+          <ID name="idealClk" mc="Standard.Instance" uid="b589af57-26c3-11df-8698-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[idealClk]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="IdealClock" mc="Standard.Class" uid="db68917b-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="Clock_Instance" mc="Infrastructure.Stereotype" uid="df95dcf2-14cd-11df-9d54-0014222a9f79"/>
+            </LINK>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="Dependency" mc="Infrastructure.Dependency" uid="47abec33-b433-11e0-8b6b-0027103f347c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Dependency]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="s" mc="Standard.EnumerationLiteral" uid="db68917d-0cce-11df-8525-001302895b2b"/>
+                    </REFOBJ>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="ProfileAssociation_unit_Clock_Unit" mc="Infrastructure.Stereotype" uid="5eefc01d-77b9-11df-a783-0014222a9f79"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="TimedValueType" mc="Standard.DataType" uid="dabcea76-0cce-11df-8525-001302895b2b"/>
+        <OBJECT>
+          <ID name="TUK" mc="Standard.Enumeration" uid="dabf4cbf-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TUK]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ClockedValueSpecification" mc="Standard.DataType" uid="dabf4cc2-0cce-11df-8525-001302895b2b"/>
+        <OBJECT>
+          <ID name="TimeUnitKind" mc="Standard.Enumeration" uid="db68917c-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TimeUnitKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="s" mc="Standard.EnumerationLiteral" uid="db68917d-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[s]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="Unit_EnumerationLiteral" mc="Infrastructure.Stereotype" uid="d95c1302-0cce-11df-8525-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ms" mc="Standard.EnumerationLiteral" uid="db68917e-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ms]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="Unit_EnumerationLiteral" mc="Infrastructure.Stereotype" uid="d95c1302-0cce-11df-8525-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="us" mc="Standard.EnumerationLiteral" uid="db6af3cf-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[us]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="Unit_EnumerationLiteral" mc="Infrastructure.Stereotype" uid="d95c1302-0cce-11df-8525-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ns" mc="Standard.EnumerationLiteral" uid="db6d5621-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ns]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="Unit_EnumerationLiteral" mc="Infrastructure.Stereotype" uid="d95c1302-0cce-11df-8525-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="min" mc="Standard.EnumerationLiteral" uid="db6fb873-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[min]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="Unit_EnumerationLiteral" mc="Infrastructure.Stereotype" uid="d95c1302-0cce-11df-8525-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="hrs" mc="Standard.EnumerationLiteral" uid="db721ac5-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[hrs]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="Unit_EnumerationLiteral" mc="Infrastructure.Stereotype" uid="d95c1302-0cce-11df-8525-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="day" mc="Standard.EnumerationLiteral" uid="db747d17-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[day]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="Unit_EnumerationLiteral" mc="Infrastructure.Stereotype" uid="d95c1302-0cce-11df-8525-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="LogicalTimeUnit" mc="Standard.Enumeration" uid="db76df69-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[LogicalTimeUnit]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="tick" mc="Standard.EnumerationLiteral" uid="db76df6a-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[tick]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="Unit_EnumerationLiteral" mc="Infrastructure.Stereotype" uid="d95c1302-0cce-11df-8525-001302895b2b"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="IdealClock" mc="Standard.Class" uid="db68917b-0cce-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

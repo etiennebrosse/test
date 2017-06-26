@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::HRM::HwLogical::HwDevice" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwDevice" mc="Infrastructure.Profile" uid="012e54c2-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::HRM::HwLogical::HwDevice]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="HwDevice_Association" mc="Infrastructure.Stereotype" uid="cd4663bb-10b0-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwDevice_AssociationEnd" mc="Infrastructure.Stereotype" uid="0130b6fd-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwDevice_Attribute" mc="Infrastructure.Stereotype" uid="0130b6ff-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwDevice_Classifier" mc="Infrastructure.Stereotype" uid="cd7ad7b9-10b0-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwDevice_Instance" mc="Infrastructure.Stereotype" uid="0130b702-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwDevice_Lifeline" mc="Infrastructure.Stereotype" uid="cd609dba-10b0-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwDevice_Link" mc="Infrastructure.Stereotype" uid="0130b701-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwDevice_Parameter" mc="Infrastructure.Stereotype" uid="0130b6fc-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwI_O_Association" mc="Infrastructure.Stereotype" uid="07db34c5-10b1-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwI_O_AssociationEnd" mc="Infrastructure.Stereotype" uid="0137ddf3-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwI_O_Attribute" mc="Infrastructure.Stereotype" uid="0137ddf5-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwI_O_Classifier" mc="Infrastructure.Stereotype" uid="08146d7d-10b1-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwI_O_Instance" mc="Infrastructure.Stereotype" uid="0137ddf8-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwI_O_Lifeline" mc="Infrastructure.Stereotype" uid="07f7d121-10b1-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwI_O_Link" mc="Infrastructure.Stereotype" uid="0137ddf7-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwI_O_Parameter" mc="Infrastructure.Stereotype" uid="0137ddf2-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwSupport_Association" mc="Infrastructure.Stereotype" uid="78e7b2a2-10b0-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwSupport_AssociationEnd" mc="Infrastructure.Stereotype" uid="013ca297-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwSupport_Attribute" mc="Infrastructure.Stereotype" uid="013ca299-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwSupport_Classifier" mc="Infrastructure.Stereotype" uid="791c2674-10b0-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwSupport_Instance" mc="Infrastructure.Stereotype" uid="013ca29c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwSupport_Lifeline" mc="Infrastructure.Stereotype" uid="7901ec8b-10b0-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwSupport_Link" mc="Infrastructure.Stereotype" uid="013ca29b-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwSupport_Parameter" mc="Infrastructure.Stereotype" uid="013ca296-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwActuator_Association" mc="Infrastructure.Stereotype" uid="88a3740f-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwActuator_AssociationEnd" mc="Infrastructure.Stereotype" uid="88a37410-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwActuator_Attribute" mc="Infrastructure.Stereotype" uid="88a37411-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwActuator_Classifier" mc="Infrastructure.Stereotype" uid="88a37412-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwActuator_Instance" mc="Infrastructure.Stereotype" uid="88a37413-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwActuator_Lifeline" mc="Infrastructure.Stereotype" uid="88a37414-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwActuator_Link" mc="Infrastructure.Stereotype" uid="88a37415-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwActuator_Parameter" mc="Infrastructure.Stereotype" uid="88a37416-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwSensor_Association" mc="Infrastructure.Stereotype" uid="e89de848-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwSensor_AssociationEnd" mc="Infrastructure.Stereotype" uid="e89de849-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwSensor_Attribute" mc="Infrastructure.Stereotype" uid="e89de84a-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwSensor_Classifier" mc="Infrastructure.Stereotype" uid="e89de84b-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwSensor_Instance" mc="Infrastructure.Stereotype" uid="e89de84c-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwSensor_Lifeline" mc="Infrastructure.Stereotype" uid="e89de84d-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwSensor_Link" mc="Infrastructure.Stereotype" uid="e89de84e-c7ac-11df-ad39-001302895b2b"/>
+        <COMPID name="HwSensor_Parameter" mc="Infrastructure.Stereotype" uid="e8a04aa7-c7ac-11df-ad39-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

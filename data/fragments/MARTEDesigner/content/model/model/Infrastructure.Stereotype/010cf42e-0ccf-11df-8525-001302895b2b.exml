@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwEndPoint_AssociationEnd" version="4">
+  <OBJECT>
+    <ID name="HwEndPoint_AssociationEnd" mc="Infrastructure.Stereotype" uid="010cf42e-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwCommunication" mc="Infrastructure.Profile" uid="00fc43f7-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/associationend.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwEndPoint_AssociationEnd.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.AssociationEnd]]></ATT>
+      <ATT name="Name"><![CDATA[HwEndPoint_AssociationEnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="CommunicationEndPoint_AssociationEnd" mc="Infrastructure.Stereotype" uid="ffa4f5d7-0cce-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwEndPoint_AssociationEnd_connectedTo" mc="Infrastructure.TagType" uid="010f5681-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_AssociationEnd_connectedTo.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_AssociationEnd_connectedTo]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_AssociationEnd_description" mc="Infrastructure.TagType" uid="49b6c443-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_AssociationEnd_description.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_AssociationEnd_description]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_AssociationEnd_p_HW_Services" mc="Infrastructure.TagType" uid="49b6eb54-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_AssociationEnd_p_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_AssociationEnd_p_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_AssociationEnd_r_HW_Services" mc="Infrastructure.TagType" uid="49b6eb55-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_AssociationEnd_r_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_AssociationEnd_r_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_AssociationEnd_ownedHW" mc="Infrastructure.TagType" uid="49b6eb56-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_AssociationEnd_ownedHW.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_AssociationEnd_ownedHW]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_AssociationEnd_frequency" mc="Infrastructure.TagType" uid="49b6eb57-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_AssociationEnd_frequency.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_AssociationEnd_frequency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

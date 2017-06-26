@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Resource_LinkEnd" version="4">
+  <OBJECT>
+    <ID name="Resource_LinkEnd" mc="Infrastructure.Stereotype" uid="90ae0f72-32a2-11df-9294-001302895b2b"/>
+    <PID name="MARTE::MARTE_Foundations::GRM" mc="Infrastructure.Profile" uid="ff9dcedd-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/connectorend.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Resource_LinkEnd.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.LinkEnd]]></ATT>
+      <ATT name="Name"><![CDATA[Resource_LinkEnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="Resource_LinkEnd_resMult" mc="Infrastructure.TagType" uid="90ae0f73-32a2-11df-9294-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Resource_LinkEnd_resMult.label]]></ATT>
+            <ATT name="Name"><![CDATA[Resource_LinkEnd_resMult]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Resource_LinkEnd_isProtected" mc="Infrastructure.TagType" uid="90ae0f74-32a2-11df-9294-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Resource_LinkEnd_isProtected.label]]></ATT>
+            <ATT name="Name"><![CDATA[Resource_LinkEnd_isProtected]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Resource_LinkEnd_isActive" mc="Infrastructure.TagType" uid="90ae0f75-32a2-11df-9294-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Resource_LinkEnd_isActive.label]]></ATT>
+            <ATT name="Name"><![CDATA[Resource_LinkEnd_isActive]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwMMU_Parameter" version="4">
+  <OBJECT>
+    <ID name="HwMMU_Parameter" mc="Infrastructure.Stereotype" uid="017f638e-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwStorage::HwStorageManager" mc="Infrastructure.Profile" uid="016eb364-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/parameter.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwMMU_Parameter.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Parameter]]></ATT>
+      <ATT name="Name"><![CDATA[HwMMU_Parameter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="HwStorageManager_Parameter" mc="Infrastructure.Stereotype" uid="016eb365-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwMMU_Parameter_virtualAddrSpace" mc="Infrastructure.TagType" uid="01842838-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwMMU_Parameter_virtualAddrSpace.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwMMU_Parameter_virtualAddrSpace]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwMMU_Parameter_physicalAddrSpace" mc="Infrastructure.TagType" uid="0184283f-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwMMU_Parameter_physicalAddrSpace.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwMMU_Parameter_physicalAddrSpace]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwMMU_Parameter_nbEntries" mc="Infrastructure.TagType" uid="0184284d-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwMMU_Parameter_nbEntries.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwMMU_Parameter_nbEntries]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwMMU_Parameter_ownedTLBs" mc="Infrastructure.TagType" uid="01842854-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwMMU_Parameter_ownedTLBs.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwMMU_Parameter_ownedTLBs]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwMMU_Parameter_memoryProtection" mc="Infrastructure.TagType" uid="ce3381bd-1710-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwMMU_Parameter_memoryProtection.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwMMU_Parameter_memoryProtection]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,231 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GaExecHost_Lifeline" version="4">
+  <OBJECT>
+    <ID name="GaExecHost_Lifeline" mc="Infrastructure.Stereotype" uid="363d87c0-14a7-11df-9d54-0014222a9f79"/>
+    <PID name="MARTE::MARTE_AnalysisModel::GQAM" mc="Infrastructure.Profile" uid="02644261-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/lifeline.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.GaExecHost_Lifeline.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Lifeline]]></ATT>
+      <ATT name="Name"><![CDATA[GaExecHost_Lifeline]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="ComputingResource_Lifeline" mc="Infrastructure.Stereotype" uid="150e67c7-1019-11df-86fe-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_commTxOvh" mc="Infrastructure.TagType" uid="363d87c1-14a7-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_commTxOvh.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_commTxOvh]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_commRcvOvh" mc="Infrastructure.TagType" uid="363d87c2-14a7-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_commRcvOvh.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_commRcvOvh]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_cntxtSwT" mc="Infrastructure.TagType" uid="363d87c3-14a7-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_cntxtSwT.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_cntxtSwT]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_clockOvh" mc="Infrastructure.TagType" uid="363d87c4-14a7-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_clockOvh.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_clockOvh]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_schedPriRange" mc="Infrastructure.TagType" uid="363d87c5-14a7-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_schedPriRange.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_schedPriRange]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_memSize" mc="Infrastructure.TagType" uid="363d87c6-14a7-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_memSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_memSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_utilization" mc="Infrastructure.TagType" uid="363d87c7-14a7-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_utilization.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_utilization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_throughput" mc="Infrastructure.TagType" uid="363d87c8-14a7-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_throughput.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_throughput]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_isPreemptible" mc="Infrastructure.TagType" uid="1d82009a-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_isPreemptible.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_isPreemptible]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_schedPolicy" mc="Infrastructure.TagType" uid="1d82009b-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_schedPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_schedPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_otherSchedPolicy" mc="Infrastructure.TagType" uid="1d82009c-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_otherSchedPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_otherSchedPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_schedule" mc="Infrastructure.TagType" uid="1d82009d-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_schedule.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_schedule]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_processingUnits" mc="Infrastructure.TagType" uid="1d82009e-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_processingUnits.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_processingUnits]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_host" mc="Infrastructure.TagType" uid="1d82009f-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_host.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_host]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_protectedSharedResources" mc="Infrastructure.TagType" uid="1d8200a0-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_protectedSharedResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_protectedSharedResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaExecHost_Lifeline_schedulableResources" mc="Infrastructure.TagType" uid="1d8200a1-16ea-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaExecHost_Lifeline_schedulableResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaExecHost_Lifeline_schedulableResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

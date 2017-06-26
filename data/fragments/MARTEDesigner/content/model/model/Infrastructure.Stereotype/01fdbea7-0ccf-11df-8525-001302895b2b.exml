@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MemoryBroker_Parameter" version="4">
+  <OBJECT>
+    <ID name="MemoryBroker_Parameter" mc="Infrastructure.Stereotype" uid="01fdbea7-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Brokering" mc="Infrastructure.Profile" uid="01f43554-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/MemoryBroker_parameter.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.MemoryBroker_Parameter.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Parameter]]></ATT>
+      <ATT name="Name"><![CDATA[MemoryBroker_Parameter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwResource_Parameter" mc="Infrastructure.Stereotype" uid="01a0c40a-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="MemoryBroker_Parameter_accessPolicy" mc="Infrastructure.TagType" uid="5908a928-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryBroker_Parameter_accessPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryBroker_Parameter_accessPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryBroker_Parameter_memories" mc="Infrastructure.TagType" uid="5908a927-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryBroker_Parameter_memories.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryBroker_Parameter_memories]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryBroker_Parameter_memoryBlockAdressElements" mc="Infrastructure.TagType" uid="5908a926-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryBroker_Parameter_memoryBlockAdressElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryBroker_Parameter_memoryBlockAdressElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryBroker_Parameter_memoryBlockSizeElements" mc="Infrastructure.TagType" uid="5908a925-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryBroker_Parameter_memoryBlockSizeElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryBroker_Parameter_memoryBlockSizeElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryBroker_Parameter_lockServices" mc="Infrastructure.TagType" uid="5908a924-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryBroker_Parameter_lockServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryBroker_Parameter_lockServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryBroker_Parameter_unlockServices" mc="Infrastructure.TagType" uid="5908a923-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryBroker_Parameter_unlockServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryBroker_Parameter_unlockServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryBroker_Parameter_mapServices" mc="Infrastructure.TagType" uid="5908a922-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryBroker_Parameter_mapServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryBroker_Parameter_mapServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryBroker_Parameter_unMapServices" mc="Infrastructure.TagType" uid="5908a921-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryBroker_Parameter_unMapServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryBroker_Parameter_unMapServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

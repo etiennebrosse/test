@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MessageComResource_Classifier" version="4">
+  <OBJECT>
+    <ID name="MessageComResource_Classifier" mc="Infrastructure.Stereotype" uid="957f703a-10d8-11df-81d9-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Interaction" mc="Infrastructure.Profile" uid="020747eb-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.MessageComResource_Classifier.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Classifier]]></ATT>
+      <ATT name="Name"><![CDATA[MessageComResource_Classifier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwCommunicationResource_Classifier" mc="Infrastructure.Stereotype" uid="59980f9a-10d8-11df-81d9-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="MessageComResource_Classifier_isFixedMessageSize" mc="Infrastructure.TagType" uid="9581d299-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Classifier_isFixedMessageSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Classifier_isFixedMessageSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Classifier_mechanism" mc="Infrastructure.TagType" uid="9581d29c-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Classifier_mechanism.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Classifier_mechanism]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Classifier_messageSizeElements" mc="Infrastructure.TagType" uid="9581d29d-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Classifier_messageSizeElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Classifier_messageSizeElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Classifier_messageQueueCapacityElements" mc="Infrastructure.TagType" uid="9581d297-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Classifier_messageQueueCapacityElements.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Classifier_messageQueueCapacityElements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Classifier_messageQueuePolicy" mc="Infrastructure.TagType" uid="9581d298-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Classifier_messageQueuePolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Classifier_messageQueuePolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Classifier_sendServices" mc="Infrastructure.TagType" uid="9581d29a-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Classifier_sendServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Classifier_sendServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MessageComResource_Classifier_receiveServices" mc="Infrastructure.TagType" uid="9581d29b-10d8-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MessageComResource_Classifier_receiveServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[MessageComResource_Classifier_receiveServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

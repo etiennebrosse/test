@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SwAccessService_Behavior" version="4">
+  <OBJECT>
+    <ID name="SwAccessService_Behavior" mc="Infrastructure.Stereotype" uid="01a7eb00-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_ResourceCore" mc="Infrastructure.Profile" uid="019e61c2-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SwAccessService_Behavior.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Behavior]]></ATT>
+      <ATT name="Name"><![CDATA[SwAccessService_Behavior]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="GrService_Behavior" mc="Infrastructure.Stereotype" uid="b8f6af0d-0f4a-11df-8c52-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SwAccessService_Behavior_isModifier" mc="Infrastructure.TagType" uid="01a7eb06-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwAccessService_Behavior_isModifier.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwAccessService_Behavior_isModifier]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwAccessService_Behavior_accessedElement" mc="Infrastructure.TagType" uid="01a7eb0c-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwAccessService_Behavior_accessedElement.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwAccessService_Behavior_accessedElement]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

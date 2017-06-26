@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RtAction_OpaqueAction" version="4">
+  <OBJECT>
+    <ID name="RtAction_OpaqueAction" mc="Infrastructure.Stereotype" uid="682d416d-14b3-11df-ad67-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HLAM" mc="Infrastructure.Profile" uid="00c30c45-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/opaqueaction.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.RtAction_OpaqueAction.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.OpaqueAction]]></ATT>
+      <ATT name="Name"><![CDATA[RtAction_OpaqueAction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="RtAction_OpaqueAction_isAtomic" mc="Infrastructure.TagType" uid="682d416e-14b3-11df-ad67-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtAction_OpaqueAction_isAtomic.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtAction_OpaqueAction_isAtomic]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtAction_OpaqueAction_synchKind" mc="Infrastructure.TagType" uid="682d416f-14b3-11df-ad67-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtAction_OpaqueAction_synchKind.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtAction_OpaqueAction_synchKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtAction_OpaqueAction_msgSize" mc="Infrastructure.TagType" uid="682d4170-14b3-11df-ad67-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtAction_OpaqueAction_msgSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtAction_OpaqueAction_msgSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,192 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwComponent_Classifier" version="4">
+  <OBJECT>
+    <ID name="HwComponent_Classifier" mc="Infrastructure.Stereotype" uid="76d55fe4-10b4-11df-81d9-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwPhysical::HwLayout" mc="Infrastructure.Profile" uid="0184285c-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwComponent_Classifier.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Classifier]]></ATT>
+      <ATT name="Name"><![CDATA[HwComponent_Classifier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="HwResource_Classifier" mc="Infrastructure.Stereotype" uid="5b789d55-1014-11df-86fe-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwComponent_Classifier_kind" mc="Infrastructure.TagType" uid="76d55fe9-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_kind.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_kind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_dimensions" mc="Infrastructure.TagType" uid="76d55fe5-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[3]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_dimensions.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_dimensions]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_area" mc="Infrastructure.TagType" uid="76d55fea-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_area.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_area]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_position" mc="Infrastructure.TagType" uid="76d55feb-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[2]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_position.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_position]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_grid" mc="Infrastructure.TagType" uid="76d55fe6-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[2]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_grid.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_grid]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_nbPins" mc="Infrastructure.TagType" uid="76d55fe7-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_nbPins.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_nbPins]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_weight" mc="Infrastructure.TagType" uid="76d55fe8-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_weight.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_weight]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_price" mc="Infrastructure.TagType" uid="76d55fec-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_price.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_price]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_r_Conditions" mc="Infrastructure.TagType" uid="76d55fed-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_r_Conditions.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_r_Conditions]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_poweredServices" mc="Infrastructure.TagType" uid="76d55fee-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_poweredServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_poweredServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_staticConsumption" mc="Infrastructure.TagType" uid="76d55fef-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_staticConsumption.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_staticConsumption]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_staticDissipation" mc="Infrastructure.TagType" uid="76d55ff0-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_staticDissipation.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_staticDissipation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwComponent_Classifier_subComponents" mc="Infrastructure.TagType" uid="76d55ff1-10b4-11df-81d9-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwComponent_Classifier_subComponents.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwComponent_Classifier_subComponents]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwResource_Lifeline" version="4">
+  <OBJECT>
+    <ID name="HwResource_Lifeline" mc="Infrastructure.Stereotype" uid="528a2e2f-1014-11df-86fe-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwGeneral" mc="Infrastructure.Profile" uid="01973ad0-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/lifeline.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwResource_Lifeline.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Lifeline]]></ATT>
+      <ATT name="Name"><![CDATA[HwResource_Lifeline]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="Resource_Lifeline" mc="Infrastructure.Stereotype" uid="76f4d21a-101a-11df-86fe-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwResource_Lifeline_description" mc="Infrastructure.TagType" uid="7204ba7a-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Lifeline_description.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Lifeline_description]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Lifeline_p_HW_Services" mc="Infrastructure.TagType" uid="7204ba7b-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Lifeline_p_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Lifeline_p_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Lifeline_r_HW_Services" mc="Infrastructure.TagType" uid="7204ba7c-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Lifeline_r_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Lifeline_r_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Lifeline_ownedHW" mc="Infrastructure.TagType" uid="7204ba77-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Lifeline_ownedHW.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Lifeline_ownedHW]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Lifeline_frequency" mc="Infrastructure.TagType" uid="7204ba79-1014-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Lifeline_frequency.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Lifeline_frequency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwResource_Lifeline_endPoints" mc="Infrastructure.TagType" uid="2f56b459-1709-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwResource_Lifeline_endPoints.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwResource_Lifeline_endPoints]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

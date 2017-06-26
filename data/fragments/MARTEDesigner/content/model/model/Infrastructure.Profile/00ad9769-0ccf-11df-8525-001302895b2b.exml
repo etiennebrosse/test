@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_Foundations::Alloc" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_Foundations::Alloc" mc="Infrastructure.Profile" uid="00ad9769-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_Foundations::Alloc]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="AllocateActivityGroup_ActivityPartition" mc="Infrastructure.Stereotype" uid="00b4be54-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="Allocate_Dependency" mc="Infrastructure.Stereotype" uid="00b25c02-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="Allocated_ModelElement" mc="Infrastructure.Stereotype" uid="00ad976a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="Assign_Note" mc="Infrastructure.Stereotype" uid="ae295656-11a1-11df-b398-0014222a9f79"/>
+        <COMPID name="NfpRefine_Dependency" mc="Infrastructure.Stereotype" uid="00b4be56-0ccf-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

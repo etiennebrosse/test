@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MemoryPartition_Link" version="4">
+  <OBJECT>
+    <ID name="MemoryPartition_Link" mc="Infrastructure.Stereotype" uid="01e5e758-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Concurrency" mc="Infrastructure.Profile" uid="01a7eb0f-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/MemoryPartition_link.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.MemoryPartition_Link.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Link]]></ATT>
+      <ATT name="Name"><![CDATA[MemoryPartition_Link]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwResource_Link" mc="Infrastructure.Stereotype" uid="01a32660-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="MemoryPartition_Link_concurrentResources" mc="Infrastructure.TagType" uid="1f99f415-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryPartition_Link_concurrentResources.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryPartition_Link_concurrentResources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryPartition_Link_memorySpaces" mc="Infrastructure.TagType" uid="1f99f416-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryPartition_Link_memorySpaces.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryPartition_Link_memorySpaces]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryPartition_Link_fork" mc="Infrastructure.TagType" uid="1f99f417-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryPartition_Link_fork.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryPartition_Link_fork]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MemoryPartition_Link_exit" mc="Infrastructure.TagType" uid="1f99f418-172b-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.MemoryPartition_Link_exit.label]]></ATT>
+            <ATT name="Name"><![CDATA[MemoryPartition_Link_exit]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

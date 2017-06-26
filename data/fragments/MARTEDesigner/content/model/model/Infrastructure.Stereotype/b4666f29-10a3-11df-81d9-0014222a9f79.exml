@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwASIC_Association" version="4">
+  <OBJECT>
+    <ID name="HwASIC_Association" mc="Infrastructure.Stereotype" uid="b4666f29-10a3-11df-81d9-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwComputing" mc="Infrastructure.Profile" uid="00d15a43-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/association.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwASIC_Association.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Association]]></ATT>
+      <ATT name="Name"><![CDATA[HwASIC_Association]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="HwComputingResource_Association" mc="Infrastructure.Stereotype" uid="6e135f18-10a4-11df-81d9-0014222a9f79"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::SRM::SW_Concurrency" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::SRM::SW_Concurrency" mc="Infrastructure.Profile" uid="01a7eb0f-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::SRM::SW_Concurrency]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="Alarm_Association" mc="Infrastructure.Stereotype" uid="0163f791-10d1-11df-81d9-0014222a9f79"/>
+        <COMPID name="Alarm_AssociationEnd" mc="Infrastructure.Stereotype" uid="01f43540-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="Alarm_Attribute" mc="Infrastructure.Stereotype" uid="01f43542-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="Alarm_Classifier" mc="Infrastructure.Stereotype" uid="019f92a6-10d1-11df-81d9-0014222a9f79"/>
+        <COMPID name="Alarm_Instance" mc="Infrastructure.Stereotype" uid="01f43545-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="Alarm_Lifeline" mc="Infrastructure.Stereotype" uid="0182f64a-10d1-11df-81d9-0014222a9f79"/>
+        <COMPID name="Alarm_Link" mc="Infrastructure.Stereotype" uid="01f43544-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="Alarm_Parameter" mc="Infrastructure.Stereotype" uid="01e849b1-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="EntryPoint_Dependency" mc="Infrastructure.Stereotype" uid="01a7eb10-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="InterruptResource_Association" mc="Infrastructure.Stereotype" uid="cb98a541-10d0-11df-81d9-0014222a9f79"/>
+        <COMPID name="InterruptResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="01c94b7c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="InterruptResource_Attribute" mc="Infrastructure.Stereotype" uid="01c94b7e-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="InterruptResource_Classifier" mc="Infrastructure.Stereotype" uid="cbe02c27-10d0-11df-81d9-0014222a9f79"/>
+        <COMPID name="InterruptResource_Instance" mc="Infrastructure.Stereotype" uid="01c94b81-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="InterruptResource_Lifeline" mc="Infrastructure.Stereotype" uid="cbbc68b4-10d0-11df-81d9-0014222a9f79"/>
+        <COMPID name="InterruptResource_Link" mc="Infrastructure.Stereotype" uid="01c94b80-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="InterruptResource_Parameter" mc="Infrastructure.Stereotype" uid="01bd5ff0-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MemoryPartition_Association" mc="Infrastructure.Stereotype" uid="f5bdeb97-10cf-11df-81d9-0014222a9f79"/>
+        <COMPID name="MemoryPartition_AssociationEnd" mc="Infrastructure.Stereotype" uid="01e5e754-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MemoryPartition_Attribute" mc="Infrastructure.Stereotype" uid="01e5e756-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MemoryPartition_Instance" mc="Infrastructure.Stereotype" uid="01e5e759-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MemoryPartition_Lifeline" mc="Infrastructure.Stereotype" uid="f5dcea50-10cf-11df-81d9-0014222a9f79"/>
+        <COMPID name="MemoryPartition_Link" mc="Infrastructure.Stereotype" uid="01e5e758-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MemoryPartition_NameSpace" mc="Infrastructure.Stereotype" uid="f915dc02-10cf-11df-81d9-0014222a9f79"/>
+        <COMPID name="MemoryPartition_Parameter" mc="Infrastructure.Stereotype" uid="01e122b4-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwConcurrentResource_Association" mc="Infrastructure.Stereotype" uid="87b85da9-10d0-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwConcurrentResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="01b3d69a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwConcurrentResource_Attribute" mc="Infrastructure.Stereotype" uid="01b3d69c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwConcurrentResource_Classifier" mc="Infrastructure.Stereotype" uid="8804a949-10d0-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwConcurrentResource_Instance" mc="Infrastructure.Stereotype" uid="01b3d69f-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwConcurrentResource_Lifeline" mc="Infrastructure.Stereotype" uid="87de8379-10d0-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwConcurrentResource_Link" mc="Infrastructure.Stereotype" uid="01b3d69e-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwConcurrentResource_Parameter" mc="Infrastructure.Stereotype" uid="01aa4d57-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSchedulableResource_Association" mc="Infrastructure.Stereotype" uid="ad90c0a6-10ce-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwSchedulableResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="01d79968-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSchedulableResource_Attribute" mc="Infrastructure.Stereotype" uid="01d7996a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSchedulableResource_Classifier" mc="Infrastructure.Stereotype" uid="adcebe18-10ce-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwSchedulableResource_Instance" mc="Infrastructure.Stereotype" uid="01d7996d-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSchedulableResource_Lifeline" mc="Infrastructure.Stereotype" uid="adb221bc-10ce-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwSchedulableResource_Link" mc="Infrastructure.Stereotype" uid="01d7996c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSchedulableResource_Parameter" mc="Infrastructure.Stereotype" uid="01cbadd7-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwTimerResource_Association" mc="Infrastructure.Stereotype" uid="aca41632-10cf-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwTimerResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="01dec05f-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwTimerResource_Attribute" mc="Infrastructure.Stereotype" uid="01dec061-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwTimerResource_Classifier" mc="Infrastructure.Stereotype" uid="ace6d85e-10cf-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwTimerResource_Instance" mc="Infrastructure.Stereotype" uid="01dec064-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwTimerResource_Lifeline" mc="Infrastructure.Stereotype" uid="acc314eb-10cf-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwTimerResource_Link" mc="Infrastructure.Stereotype" uid="01dec063-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwTimerResource_Parameter" mc="Infrastructure.Stereotype" uid="01dec05e-0ccf-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

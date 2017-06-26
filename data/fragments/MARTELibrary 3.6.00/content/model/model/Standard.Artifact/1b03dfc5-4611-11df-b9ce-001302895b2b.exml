@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTELibrary" version="4">
+  <OBJECT>
+    <ID name="MARTELibrary" mc="Standard.Artifact" uid="1b03dfc5-4611-11df-b9ce-001302895b2b"/>
+    <PID name="MARTELibrary" mc="Standard.Package" uid="efac0edf-c384-4652-815f-f28a1154d046"/>
+    <ATTRIBUTES>
+      <ATT name="FileName"><![CDATA[C:\work\hades\projects\workspace\MARTE_Librairy\MARTELibrary.ramc]]></ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MARTELibrary]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Utilized">
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="44cd942f-4611-11df-b9ce-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="MARTE_PrimitivesTypes" mc="Standard.Package" uid="d8a6e2ab-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="382278e5-695d-11df-aa87-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="MeasurementUnits" mc="Standard.Package" uid="d8a6e2ad-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="3837ee0e-695d-11df-aa87-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="GRM_BasicTypes" mc="Standard.Package" uid="d8a6e2af-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="384d6338-695d-11df-aa87-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="MARTE_DataTypes" mc="Standard.Package" uid="d8a944fd-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="389e732c-695d-11df-aa87-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="BasicNFP_Types" mc="Standard.Package" uid="d8a944ff-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="38b64ab0-695d-11df-aa87-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="TimeTypesLibrary" mc="Standard.Package" uid="d8a94501-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="38d0848e-695d-11df-aa87-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="TimeLibrary" mc="Standard.Package" uid="d8a94503-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="3942f56e-695d-11df-aa87-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="RS_Library" mc="Standard.Package" uid="db7e065d-0cce-11df-8525-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Manifestation" mc="Standard.Manifestation" uid="395f91a6-695d-11df-aa87-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Manifestation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="UtilizedElement">
+              <ID name="Profile_enum" mc="Standard.Package" uid="e7b2779b-1adf-11df-9074-001302895b2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ModelComponentArchive" mc="Infrastructure.Stereotype" uid="00140d80-0000-0110-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="TaggedValue" mc="Infrastructure.TaggedValue" uid="44cb31d5-4611-11df-b9ce-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[TaggedValue]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TagParameter" uid="44cd942d-4611-11df-b9ce-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[3.6.00]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="ModelComponentVersion" mc="Infrastructure.TagType" uid="00140d80-0000-020c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="164689ee-1c1b-4ff9-b2b3-4528b815129e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Definition">
+              <FOREIGNID name="ModelComponentFiles" mc="Infrastructure.TagType" uid="00140d80-0000-0112-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.TaggedValue" uid="93f8ddc0-c2c4-43b8-90e5-9b6faeb66ea6"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TagParameter" uid="a1e0891d-24f3-4e3f-bb8f-d837749c9b13"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[MARTEDesigner#3.6.00]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TagParameter" uid="3c278e9d-1193-43e4-b829-81d75c2f65bd"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[ModelerModule#8.7.09]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="ModelComponentContributors" mc="Infrastructure.TagType" uid="9834df4e-84a3-4ec8-b216-fd2adda71578"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="Note" mc="Infrastructure.Note" uid="44cd942e-4611-11df-b9ce-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Library of MARTE Specification]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Note]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

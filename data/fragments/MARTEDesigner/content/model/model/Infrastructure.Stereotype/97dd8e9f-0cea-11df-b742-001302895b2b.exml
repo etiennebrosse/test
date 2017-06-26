@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RtUnit_Behavior" version="4">
+  <OBJECT>
+    <ID name="RtUnit_Behavior" mc="Infrastructure.Stereotype" uid="97dd8e9f-0cea-11df-b742-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HLAM" mc="Infrastructure.Profile" uid="00c30c45-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.RtUnit_Behavior.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Behavior]]></ATT>
+      <ATT name="Name"><![CDATA[RtUnit_Behavior]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="RtUnit_Behavior_isDynamic" mc="Infrastructure.TagType" uid="97db2c2b-0cea-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_isDynamic.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_isDynamic]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_isMain" mc="Infrastructure.TagType" uid="97db2c2c-0cea-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_isMain.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_isMain]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_srPoolSize" mc="Infrastructure.TagType" uid="97db2c2d-0cea-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_srPoolSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_srPoolSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_srPoolPolicy" mc="Infrastructure.TagType" uid="97db2c32-0cea-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_srPoolPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_srPoolPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_srPoolWaitingTime" mc="Infrastructure.TagType" uid="97db2c33-0cea-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_srPoolWaitingTime.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_srPoolWaitingTime]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_queueSchedPolicy" mc="Infrastructure.TagType" uid="9a2e471d-91c5-11e0-8b7d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_queueSchedPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_queueSchedPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_queueSize" mc="Infrastructure.TagType" uid="9a2e471b-91c5-11e0-8b7d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_queueSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_queueSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_msgMaxSize" mc="Infrastructure.TagType" uid="9a2e471c-91c5-11e0-8b7d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_msgMaxSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_msgMaxSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_operationalMode" mc="Infrastructure.TagType" uid="97db2c34-0cea-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_operationalMode.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_operationalMode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_main" mc="Infrastructure.TagType" uid="97db2c35-0cea-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_main.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_main]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Behavior_memorySize" mc="Infrastructure.TagType" uid="97db2c2e-0cea-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Behavior_memorySize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Behavior_memorySize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

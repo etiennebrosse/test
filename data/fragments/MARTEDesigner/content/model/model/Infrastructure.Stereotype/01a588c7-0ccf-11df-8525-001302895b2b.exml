@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SwAccessService_Operation" version="4">
+  <OBJECT>
+    <ID name="SwAccessService_Operation" mc="Infrastructure.Stereotype" uid="01a588c7-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_ResourceCore" mc="Infrastructure.Profile" uid="019e61c2-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/operation.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SwAccessService_Operation.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Operation]]></ATT>
+      <ATT name="Name"><![CDATA[SwAccessService_Operation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="GrService_Operation" mc="Infrastructure.Stereotype" uid="ad278945-0f4a-11df-8c52-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SwAccessService_Operation_isModifier" mc="Infrastructure.TagType" uid="01a7eb05-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwAccessService_Operation_isModifier.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwAccessService_Operation_isModifier]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SwAccessService_Operation_accessedElement" mc="Infrastructure.TagType" uid="01a7eb0b-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SwAccessService_Operation_accessedElement.label]]></ATT>
+            <ATT name="Name"><![CDATA[SwAccessService_Operation_accessedElement]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

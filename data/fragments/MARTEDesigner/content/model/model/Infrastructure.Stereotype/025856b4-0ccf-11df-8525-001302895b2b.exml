@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GCMTrigger_Dependency" version="4">
+  <OBJECT>
+    <ID name="GCMTrigger_Dependency" mc="Infrastructure.Stereotype" uid="025856b4-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::GCM" mc="Infrastructure.Profile" uid="02454447-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.GCMTrigger_Dependency.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.Dependency]]></ATT>
+      <ATT name="Name"><![CDATA[GCMTrigger_Dependency]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="GCMTrigger_Dependency_feature" mc="Infrastructure.TagType" uid="025f7daa-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GCMTrigger_Dependency_feature.label]]></ATT>
+            <ATT name="Name"><![CDATA[GCMTrigger_Dependency_feature]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GCMTrigger_Dependency_port" mc="Infrastructure.TagType" uid="59e604c9-125f-11df-8f55-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GCMTrigger_Dependency_port.label]]></ATT>
+            <ATT name="Name"><![CDATA[GCMTrigger_Dependency_port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

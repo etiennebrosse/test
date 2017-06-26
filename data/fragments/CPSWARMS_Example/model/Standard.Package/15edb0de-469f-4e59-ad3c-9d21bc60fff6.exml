@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Goals" version="4">
+  <OBJECT>
+    <ID name="Goals" mc="Standard.Package" uid="15edb0de-469f-4e59-ad3c-9d21bc60fff6"/>
+    <PID name="cpswarms_example" mc="Standard.Package" uid="55dbc781-1f2f-4b6d-aac5-313c52601498"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Goals]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="fitness" mc="Standard.Class" uid="1c72f7d3-8a5c-4279-9b78-4cb35177a846"/>
+        <COMPID name="distance" mc="Standard.DataType" uid="7fec0edd-30c1-4f59-8c80-9a07c7802ac1"/>
+        <COMPID name="nearField" mc="Standard.DataType" uid="f02160d1-ac63-48ba-8148-c7985a2aaa0b"/>
+        <COMPID name="speed" mc="Standard.DataType" uid="5fff8947-3c4e-4941-ba20-b1ed0546ad87"/>
+        <COMPID name="" mc="Standard.Class" uid="b0f508ea-190a-47e7-b683-a344043eac74"/>
+        <COMPID name="ConstraintBlock" mc="Standard.Class" uid="cd17b02e-78c4-4cc7-8b2f-285baf6d9b74"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Fitness" mc="Standard.StaticDiagram" uid="6f378002-12cf-433b-abbf-6b1b983ce61b"/>
+        <COMPID name="Block diagram" mc="Standard.StaticDiagram" uid="a5cfb2cc-1914-4792-9751-eb3bfc75f3e0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

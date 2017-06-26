@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RtAction_CallAction" version="4">
+  <OBJECT>
+    <ID name="RtAction_CallAction" mc="Infrastructure.Stereotype" uid="a13ac171-0ff9-11df-86fe-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::HLAM" mc="Infrastructure.Profile" uid="00c30c45-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[MARTEDesigner/res/icons/callbehavioraction.png]]></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/callbehavioraction.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.RtAction_CallAction.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.CallAction]]></ATT>
+      <ATT name="Name"><![CDATA[RtAction_CallAction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="RtAction_CallAction_isAtomic" mc="Infrastructure.TagType" uid="ada74cd9-0ff9-11df-86fe-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtAction_CallAction_isAtomic.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtAction_CallAction_isAtomic]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtAction_CallAction_synchKind" mc="Infrastructure.TagType" uid="60d761a6-1237-11df-8f55-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtAction_CallAction_synchKind.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtAction_CallAction_synchKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtAction_CallAction_msgSize" mc="Infrastructure.TagType" uid="60d761a7-1237-11df-8f55-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtAction_CallAction_msgSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtAction_CallAction_msgSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

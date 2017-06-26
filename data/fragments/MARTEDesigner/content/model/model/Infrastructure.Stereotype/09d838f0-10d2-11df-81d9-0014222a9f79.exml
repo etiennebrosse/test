@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DeviceBroker_Classifier" version="4">
+  <OBJECT>
+    <ID name="DeviceBroker_Classifier" mc="Infrastructure.Stereotype" uid="09d838f0-10d2-11df-81d9-0014222a9f79"/>
+    <PID name="MARTE::MARTE_DesignModel::SRM::SW_Brokering" mc="Infrastructure.Profile" uid="01f43554-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.DeviceBroker_Classifier.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Classifier]]></ATT>
+      <ATT name="Name"><![CDATA[DeviceBroker_Classifier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="SwResource_Classifier" mc="Infrastructure.Stereotype" uid="3e9ae4b8-10c0-11df-81d9-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="DeviceBroker_Classifier_accessPolicy" mc="Infrastructure.TagType" uid="0999ae05-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DeviceBroker_Classifier_accessPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[DeviceBroker_Classifier_accessPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DeviceBroker_Classifier_isBuffered" mc="Infrastructure.TagType" uid="0999ae06-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DeviceBroker_Classifier_isBuffered.label]]></ATT>
+            <ATT name="Name"><![CDATA[DeviceBroker_Classifier_isBuffered]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DeviceBroker_Classifier_devices" mc="Infrastructure.TagType" uid="0999ae07-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DeviceBroker_Classifier_devices.label]]></ATT>
+            <ATT name="Name"><![CDATA[DeviceBroker_Classifier_devices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DeviceBroker_Classifier_closeServices" mc="Infrastructure.TagType" uid="0999ae08-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DeviceBroker_Classifier_closeServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[DeviceBroker_Classifier_closeServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DeviceBroker_Classifier_controlServices" mc="Infrastructure.TagType" uid="0999ae09-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DeviceBroker_Classifier_controlServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[DeviceBroker_Classifier_controlServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DeviceBroker_Classifier_openServices" mc="Infrastructure.TagType" uid="0999ae0a-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DeviceBroker_Classifier_openServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[DeviceBroker_Classifier_openServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DeviceBroker_Classifier_readServices" mc="Infrastructure.TagType" uid="0999ae0b-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DeviceBroker_Classifier_readServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[DeviceBroker_Classifier_readServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DeviceBroker_Classifier_writeServices" mc="Infrastructure.TagType" uid="0999ae0c-172e-11df-b92a-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DeviceBroker_Classifier_writeServices.label]]></ATT>
+            <ATT name="Name"><![CDATA[DeviceBroker_Classifier_writeServices]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,225 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GRM_BasicTypes" version="4">
+  <OBJECT>
+    <ID name="GRM_BasicTypes" mc="Standard.Package" uid="d8a6e2af-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTELibrary" mc="Standard.Package" uid="efac0edf-c384-4652-815f-f28a1154d046"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[GRM_BasicTypes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EDF_Parameters" mc="Standard.DataType" uid="d9ed808c-0cce-11df-8525-001302895b2b"/>
+        <OBJECT>
+          <ID name="SchedPolicyKind" mc="Standard.Enumeration" uid="d9f4a782-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[SchedPolicyKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="EarliestDeadlineFirst" mc="Standard.EnumerationLiteral" uid="d9f4a783-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[EarliestDeadlineFirst]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="FIFO" mc="Standard.EnumerationLiteral" uid="d9f4a784-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FIFO]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="FixedPriority" mc="Standard.EnumerationLiteral" uid="d9f4a785-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FixedPriority]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="LeastLaxityFirst" mc="Standard.EnumerationLiteral" uid="d9f4a786-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[LeastLaxityFirst]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="RoundRobin" mc="Standard.EnumerationLiteral" uid="d9f4a787-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RoundRobin]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="TimeTableDriven" mc="Standard.EnumerationLiteral" uid="d9f4a788-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[TimeTableDriven]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Undef" mc="Standard.EnumerationLiteral" uid="d9f4a789-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Undef]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Other" mc="Standard.EnumerationLiteral" uid="d9f4a78a-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Other]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ProtectProtocolKind" mc="Standard.Enumeration" uid="d9f4a78b-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ProtectProtocolKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="FIFO" mc="Standard.EnumerationLiteral" uid="d9f4a78c-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FIFO]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="NoPreemption" mc="Standard.EnumerationLiteral" uid="d9f4a78d-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[NoPreemption]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="PriorityCeiling" mc="Standard.EnumerationLiteral" uid="d9f4a78e-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[PriorityCeiling]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="PriorityInheritance" mc="Standard.EnumerationLiteral" uid="d9f4a78f-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[PriorityInheritance]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="StackBased" mc="Standard.EnumerationLiteral" uid="d9f4a790-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[StackBased]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Undef" mc="Standard.EnumerationLiteral" uid="d9f4a791-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Undef]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Other" mc="Standard.EnumerationLiteral" uid="d9f4a792-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Other]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PeriodicServerKind" mc="Standard.Enumeration" uid="d9f4a793-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[PeriodicServerKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Sporadic" mc="Standard.EnumerationLiteral" uid="d9f4a794-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Sporadic]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Deferrable" mc="Standard.EnumerationLiteral" uid="d9f709d4-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Deferrable]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Undef" mc="Standard.EnumerationLiteral" uid="d9f709d5-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Undef]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Other" mc="Standard.EnumerationLiteral" uid="d9f709d6-0cce-11df-8525-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Other]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="SchedParameters" mc="Standard.DataType" uid="d9f709d7-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="FixedPriorityParameters" mc="Standard.DataType" uid="d9f709dc-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="PeriodicServerParameters" mc="Standard.DataType" uid="d9f709e0-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="PoolingParameters" mc="Standard.DataType" uid="d9f709de-0cce-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

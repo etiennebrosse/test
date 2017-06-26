@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::HRM::HwLogical::HwCommunication" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwCommunication" mc="Infrastructure.Profile" uid="00fc43f7-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::HRM::HwLogical::HwCommunication]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="HwArbiter_Association" mc="Infrastructure.Stereotype" uid="5e4a9577-10ad-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwArbiter_AssociationEnd" mc="Infrastructure.Stereotype" uid="01036ae6-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwArbiter_Attribute" mc="Infrastructure.Stereotype" uid="01036ae8-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwArbiter_Classifier" mc="Infrastructure.Stereotype" uid="5e83ce17-10ad-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwArbiter_Instance" mc="Infrastructure.Stereotype" uid="01036aeb-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwArbiter_Lifeline" mc="Infrastructure.Stereotype" uid="5e6731c7-10ad-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwArbiter_Link" mc="Infrastructure.Stereotype" uid="01036aea-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwArbiter_Parameter" mc="Infrastructure.Stereotype" uid="00fea649-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBridge_Association" mc="Infrastructure.Stereotype" uid="e7e8ec3d-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBridge_AssociationEnd" mc="Infrastructure.Stereotype" uid="011da46d-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBridge_Attribute" mc="Infrastructure.Stereotype" uid="011da46f-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBridge_Classifier" mc="Infrastructure.Stereotype" uid="e82bae31-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBridge_Instance" mc="Infrastructure.Stereotype" uid="011da471-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBridge_Lifeline" mc="Infrastructure.Stereotype" uid="e80a4d37-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBridge_Link" mc="Infrastructure.Stereotype" uid="011da470-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBridge_Parameter" mc="Infrastructure.Stereotype" uid="0118dfc8-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBus_Association" mc="Infrastructure.Stereotype" uid="851aef12-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBus_AssociationEnd" mc="Infrastructure.Stereotype" uid="01167d78-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBus_Attribute" mc="Infrastructure.Stereotype" uid="01167d7a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBus_Classifier" mc="Infrastructure.Stereotype" uid="855b4eab-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBus_Instance" mc="Infrastructure.Stereotype" uid="01167d7c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBus_Lifeline" mc="Infrastructure.Stereotype" uid="8539edb1-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBus_Link" mc="Infrastructure.Stereotype" uid="01167d7b-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBus_Parameter" mc="Infrastructure.Stereotype" uid="01167d76-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwCommunicationResource_Association" mc="Infrastructure.Stereotype" uid="1856c4ad-10ad-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwCommunicationResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="00fea643-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwCommunicationResource_Attribute" mc="Infrastructure.Stereotype" uid="00fea645-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwCommunicationResource_Classifier" mc="Infrastructure.Stereotype" uid="00fea646-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwCommunicationResource_Instance" mc="Infrastructure.Stereotype" uid="00fea648-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwCommunicationResource_Lifeline" mc="Infrastructure.Stereotype" uid="1875c34c-10ad-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwCommunicationResource_Link" mc="Infrastructure.Stereotype" uid="00fea647-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwCommunicationResource_Parameter" mc="Infrastructure.Stereotype" uid="00fea642-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwEndPoint_Association" mc="Infrastructure.Stereotype" uid="3cdf782a-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwEndPoint_AssociationEnd" mc="Infrastructure.Stereotype" uid="010cf42e-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwEndPoint_Attribute" mc="Infrastructure.Stereotype" uid="010cf430-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwEndPoint_Classifier" mc="Infrastructure.Stereotype" uid="b35a9ebf-155d-11df-947b-001302895b2b"/>
+        <COMPID name="HwEndPoint_Instance" mc="Infrastructure.Stereotype" uid="010cf433-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwEndPoint_Lifeline" mc="Infrastructure.Stereotype" uid="3d07fff1-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwEndPoint_Link" mc="Infrastructure.Stereotype" uid="010cf432-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwEndPoint_LinkEnd" mc="Infrastructure.Stereotype" uid="5e0bd798-32a9-11df-9294-001302895b2b"/>
+        <COMPID name="HwEndPoint_Parameter" mc="Infrastructure.Stereotype" uid="010a91ea-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwMedia_Association" mc="Infrastructure.Stereotype" uid="b7b9110b-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwMedia_AssociationEnd" mc="Infrastructure.Stereotype" uid="0105cd39-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwMedia_Attribute" mc="Infrastructure.Stereotype" uid="0105cd3b-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwMedia_Classifier" mc="Infrastructure.Stereotype" uid="b7f970a4-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwMedia_Instance" mc="Infrastructure.Stereotype" uid="0105cd3d-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwMedia_Lifeline" mc="Infrastructure.Stereotype" uid="b7d80faa-10ac-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwMedia_Link" mc="Infrastructure.Stereotype" uid="0105cd3c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwMedia_Parameter" mc="Infrastructure.Stereotype" uid="01036af3-0ccf-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

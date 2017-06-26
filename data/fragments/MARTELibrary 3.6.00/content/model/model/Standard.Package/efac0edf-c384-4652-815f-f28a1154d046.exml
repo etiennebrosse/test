@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTELibrary" version="4">
+  <OBJECT>
+    <ID name="MARTELibrary" mc="Standard.Package" uid="efac0edf-c384-4652-815f-f28a1154d046"/>
+    <PID name="MARTELibrary" mc="Standard.Project" uid="80158dcb-9020-417e-afe9-1eda12995182"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MARTELibrary]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MARTE_PrimitivesTypes" mc="Standard.Package" uid="d8a6e2ab-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="MeasurementUnits" mc="Standard.Package" uid="d8a6e2ad-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="GRM_BasicTypes" mc="Standard.Package" uid="d8a6e2af-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="MARTE_DataTypes" mc="Standard.Package" uid="d8a944fd-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="BasicNFP_Types" mc="Standard.Package" uid="d8a944ff-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="TimeTypesLibrary" mc="Standard.Package" uid="d8a94501-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="TimeLibrary" mc="Standard.Package" uid="d8a94503-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="RS_Library" mc="Standard.Package" uid="db7e065d-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="Profile_enum" mc="Standard.Package" uid="e7b2779b-1adf-11df-9074-001302895b2b"/>
+        <COMPID name="MARTELibrary" mc="Standard.Artifact" uid="1b03dfc5-4611-11df-b9ce-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

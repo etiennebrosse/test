@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TimedValueSpecification_TaggedValue" version="4">
+  <OBJECT>
+    <ID name="TimedValueSpecification_TaggedValue" mc="Infrastructure.Stereotype" uid="db341e70-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Foundations::Time" mc="Infrastructure.Profile" uid="dac1af0e-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.TimedValueSpecification_TaggedValue.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.TaggedValue]]></ATT>
+      <ATT name="Name"><![CDATA[TimedValueSpecification_TaggedValue]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="TimedValueSpecification_TaggedValue_interpretation" mc="Infrastructure.TagType" uid="db3680c0-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.TimedValueSpecification_TaggedValue_interpretation.label]]></ATT>
+            <ATT name="Name"><![CDATA[TimedValueSpecification_TaggedValue_interpretation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TimedValueSpecification_TaggedValue_on" mc="Infrastructure.TagType" uid="d78b17d0-c7fd-11e0-9823-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.TimedValueSpecification_TaggedValue_on.label]]></ATT>
+            <ATT name="Name"><![CDATA[TimedValueSpecification_TaggedValue_on]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

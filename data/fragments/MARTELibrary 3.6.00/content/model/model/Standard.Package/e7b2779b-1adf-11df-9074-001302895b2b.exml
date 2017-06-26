@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Profile_enum" version="4">
+  <OBJECT>
+    <ID name="Profile_enum" mc="Standard.Package" uid="e7b2779b-1adf-11df-9074-001302895b2b"/>
+    <PID name="MARTELibrary" mc="Standard.Package" uid="efac0edf-c384-4652-815f-f28a1154d046"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Profile_enum]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NFP" mc="Standard.Package" uid="5247a0a2-1ae4-11df-9074-001302895b2b"/>
+        <COMPID name="Alloc" mc="Standard.Package" uid="9ad1cc5f-1ae4-11df-8dbd-0014222a9f79"/>
+        <COMPID name="HLAM" mc="Standard.Package" uid="8f59247b-1bc2-11df-bc0b-0014222a9f79"/>
+        <COMPID name="HRM" mc="Standard.Package" uid="fd735df7-1bda-11df-bc0b-0014222a9f79"/>
+        <COMPID name="SAM" mc="Standard.Package" uid="935cc11c-1c8e-11df-b664-001302895b2b"/>
+        <COMPID name="SRM" mc="Standard.Package" uid="ab46eef4-1ca5-11df-a38d-0014222a9f79"/>
+        <COMPID name="GCM" mc="Standard.Package" uid="034aff6c-1cad-11df-a38d-0014222a9f79"/>
+        <COMPID name="GQAM" mc="Standard.Package" uid="487414b5-1f9f-11df-9f97-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

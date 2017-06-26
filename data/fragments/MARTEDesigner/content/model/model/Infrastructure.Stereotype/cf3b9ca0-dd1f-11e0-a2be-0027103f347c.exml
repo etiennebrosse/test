@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProfileAssociation_workload_GaAnalysisContext" version="4">
+  <OBJECT>
+    <ID name="ProfileAssociation_workload_GaAnalysisContext" mc="Infrastructure.Stereotype" uid="cf3b9ca0-dd1f-11e0-a2be-0027103f347c"/>
+    <PID name="Extensions" mc="Infrastructure.Profile" uid="b55f0f9e-329b-11df-9294-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/dependency.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.ProfileAssociation_workload_GaAnalysisContext.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.Dependency]]></ATT>
+      <ATT name="Name"><![CDATA[ProfileAssociation_workload_GaAnalysisContext]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

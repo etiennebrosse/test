@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::SRM::SW_Interaction" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::SRM::SW_Interaction" mc="Infrastructure.Profile" uid="020747eb-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::SRM::SW_Interaction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="MessageComResource_Association" mc="Infrastructure.Stereotype" uid="9543d525-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="MessageComResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="022b0a9e-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MessageComResource_Attribute" mc="Infrastructure.Stereotype" uid="022b0aa0-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MessageComResource_Classifier" mc="Infrastructure.Stereotype" uid="957f703a-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="MessageComResource_Instance" mc="Infrastructure.Stereotype" uid="022b0aa3-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MessageComResource_Lifeline" mc="Infrastructure.Stereotype" uid="9562d3de-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="MessageComResource_Link" mc="Infrastructure.Stereotype" uid="022b0aa2-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="MessageComResource_Parameter" mc="Infrastructure.Stereotype" uid="0223e3a8-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="NotificationResource_Association" mc="Infrastructure.Stereotype" uid="d2933aa0-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="NotificationResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="0236f638-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="NotificationResource_Attribute" mc="Infrastructure.Stereotype" uid="0236f63a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="NotificationResource_Classifier" mc="Infrastructure.Stereotype" uid="d2d13812-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="NotificationResource_Instance" mc="Infrastructure.Stereotype" uid="0236f63d-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="NotificationResource_Lifeline" mc="Infrastructure.Stereotype" uid="d2b23959-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="NotificationResource_Link" mc="Infrastructure.Stereotype" uid="0236f63c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="NotificationResource_Parameter" mc="Infrastructure.Stereotype" uid="022fcf42-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SharedDataComResource_Association" mc="Infrastructure.Stereotype" uid="2d8aa548-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SharedDataComResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="02218156-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SharedDataComResource_Attribute" mc="Infrastructure.Stereotype" uid="02218158-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SharedDataComResource_Classifier" mc="Infrastructure.Stereotype" uid="2dc3de00-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SharedDataComResource_Instance" mc="Infrastructure.Stereotype" uid="0221815b-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SharedDataComResource_Lifeline" mc="Infrastructure.Stereotype" uid="2da741a4-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SharedDataComResource_Link" mc="Infrastructure.Stereotype" uid="0221815a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SharedDataComResource_Parameter" mc="Infrastructure.Stereotype" uid="021a5a60-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwCommunicationResource_Association" mc="Infrastructure.Stereotype" uid="595ed6e2-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwCommunicationResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="0210d119-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwCommunicationResource_Attribute" mc="Infrastructure.Stereotype" uid="0210d11b-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwCommunicationResource_Classifier" mc="Infrastructure.Stereotype" uid="59980f9a-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwCommunicationResource_Instance" mc="Infrastructure.Stereotype" uid="0213336a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwCommunicationResource_Lifeline" mc="Infrastructure.Stereotype" uid="597b733e-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwCommunicationResource_Link" mc="Infrastructure.Stereotype" uid="0210d11d-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwCommunicationResource_Parameter" mc="Infrastructure.Stereotype" uid="0210d118-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwInteractionResource_Association" mc="Infrastructure.Stereotype" uid="fde90ef9-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwInteractionResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="020c0c74-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwInteractionResource_Attribute" mc="Infrastructure.Stereotype" uid="020c0c76-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwInteractionResource_Classifier" mc="Infrastructure.Stereotype" uid="fe24aa0e-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwInteractionResource_Instance" mc="Infrastructure.Stereotype" uid="020c0c79-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwInteractionResource_Lifeline" mc="Infrastructure.Stereotype" uid="fe080db2-10d8-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwInteractionResource_Link" mc="Infrastructure.Stereotype" uid="020c0c78-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwInteractionResource_Parameter" mc="Infrastructure.Stereotype" uid="020747ec-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwMutualExclusionResource_Association" mc="Infrastructure.Stereotype" uid="84d0a71a-10d9-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwMutualExclusionResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="02407f80-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwMutualExclusionResource_Attribute" mc="Infrastructure.Stereotype" uid="0242e1d2-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwMutualExclusionResource_Classifier" mc="Infrastructure.Stereotype" uid="851a905d-10d9-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwMutualExclusionResource_Instance" mc="Infrastructure.Stereotype" uid="0242e1d5-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwMutualExclusionResource_Lifeline" mc="Infrastructure.Stereotype" uid="84f6ccea-10d9-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwMutualExclusionResource_Link" mc="Infrastructure.Stereotype" uid="0242e1d4-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwMutualExclusionResource_Parameter" mc="Infrastructure.Stereotype" uid="023bbadf-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSynchronizationResource_Association" mc="Infrastructure.Stereotype" uid="3d63fb19-10d9-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwSynchronizationResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="0217f80f-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSynchronizationResource_Attribute" mc="Infrastructure.Stereotype" uid="0217f811-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSynchronizationResource_Classifier" mc="Infrastructure.Stereotype" uid="3da1f88b-10d9-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwSynchronizationResource_Instance" mc="Infrastructure.Stereotype" uid="0217f814-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSynchronizationResource_Lifeline" mc="Infrastructure.Stereotype" uid="3d82f9d2-10d9-11df-81d9-0014222a9f79"/>
+        <COMPID name="SwSynchronizationResource_Link" mc="Infrastructure.Stereotype" uid="0217f813-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SwSynchronizationResource_Parameter" mc="Infrastructure.Stereotype" uid="0217f80e-0ccf-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

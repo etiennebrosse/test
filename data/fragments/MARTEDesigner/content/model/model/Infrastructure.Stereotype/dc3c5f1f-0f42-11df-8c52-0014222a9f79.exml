@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ClockResource_Classifier" version="4">
+  <OBJECT>
+    <ID name="ClockResource_Classifier" mc="Infrastructure.Stereotype" uid="dc3c5f1f-0f42-11df-8c52-0014222a9f79"/>
+    <PID name="MARTE::MARTE_Foundations::GRM" mc="Infrastructure.Profile" uid="ff9dcedd-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.ClockResource_Classifier.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Classifier]]></ATT>
+      <ATT name="Name"><![CDATA[ClockResource_Classifier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="TimingResource_Classifier" mc="Infrastructure.Stereotype" uid="6cde002f-0f4b-11df-8c52-0014222a9f79"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE_PrimitivesTypes" version="4">
+  <OBJECT>
+    <ID name="MARTE_PrimitivesTypes" mc="Standard.Package" uid="d8a6e2ab-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTELibrary" mc="Standard.Package" uid="efac0edf-c384-4652-815f-f28a1154d046"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MARTE_PrimitivesTypes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Real" mc="Standard.DataType" uid="d8a94504-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="UnlimitedNatural" mc="Standard.DataType" uid="d8ae09a0-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="DateTime" mc="Standard.DataType" uid="d8ae09a1-0cce-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Allocated_ModelElement" version="4">
+  <OBJECT>
+    <ID name="Allocated_ModelElement" mc="Infrastructure.Stereotype" uid="00ad976a-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Foundations::Alloc" mc="Infrastructure.Profile" uid="00ad9769-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Allocated_ModelElement.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[Allocated_ModelElement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="Allocated_ModelElement_allocatedTo" mc="Infrastructure.TagType" uid="00aff9b0-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Allocated_ModelElement_allocatedTo.label]]></ATT>
+            <ATT name="Name"><![CDATA[Allocated_ModelElement_allocatedTo]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Allocated_ModelElement_allocatedFrom" mc="Infrastructure.TagType" uid="00aff9b1-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Allocated_ModelElement_allocatedFrom.label]]></ATT>
+            <ATT name="Name"><![CDATA[Allocated_ModelElement_allocatedFrom]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Allocated_ModelElement_kind" mc="Infrastructure.TagType" uid="00aff9b2-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Allocated_ModelElement_kind.label]]></ATT>
+            <ATT name="Name"><![CDATA[Allocated_ModelElement_kind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

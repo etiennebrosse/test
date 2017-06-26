@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VSL_Expression" version="4">
+  <OBJECT>
+    <ID name="VSL_Expression" mc="Standard.DataType" uid="da0557c7-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTE_DataTypes" mc="Standard.Package" uid="d8a944fd-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VSL_Expression]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

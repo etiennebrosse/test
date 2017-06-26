@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RtUnit_Class" version="4">
+  <OBJECT>
+    <ID name="RtUnit_Class" mc="Infrastructure.Stereotype" uid="4cd42cdf-0ce9-11df-b742-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HLAM" mc="Infrastructure.Profile" uid="00c30c45-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.RtUnit_Class.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Class]]></ATT>
+      <ATT name="Name"><![CDATA[RtUnit_Class]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="RtUnit_Class_isDynamic" mc="Infrastructure.TagType" uid="4cd42ce0-0ce9-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_isDynamic.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_isDynamic]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_isMain" mc="Infrastructure.TagType" uid="4cd42ce1-0ce9-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_isMain.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_isMain]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_srPoolSize" mc="Infrastructure.TagType" uid="4cd42ce2-0ce9-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_srPoolSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_srPoolSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_srPoolPolicy" mc="Infrastructure.TagType" uid="4cd42ce3-0ce9-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_srPoolPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_srPoolPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_srPoolWaitingTime" mc="Infrastructure.TagType" uid="4cd42ce4-0ce9-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_srPoolWaitingTime.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_srPoolWaitingTime]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_queueSchedPolicy" mc="Infrastructure.TagType" uid="9c08435f-91c5-11e0-8b7d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_queueSchedPolicy.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_queueSchedPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_queueSize" mc="Infrastructure.TagType" uid="9c08435d-91c5-11e0-8b7d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_queueSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_queueSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_msgMaxSize" mc="Infrastructure.TagType" uid="9c08435e-91c5-11e0-8b7d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_msgMaxSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_msgMaxSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_operationalMode" mc="Infrastructure.TagType" uid="4cd42ce5-0ce9-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_operationalMode.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_operationalMode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_main" mc="Infrastructure.TagType" uid="4cd42ce6-0ce9-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_main.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_main]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RtUnit_Class_memorySize" mc="Infrastructure.TagType" uid="4cd42ce7-0ce9-11df-b742-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.RtUnit_Class_memorySize.label]]></ATT>
+            <ATT name="Name"><![CDATA[RtUnit_Class_memorySize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

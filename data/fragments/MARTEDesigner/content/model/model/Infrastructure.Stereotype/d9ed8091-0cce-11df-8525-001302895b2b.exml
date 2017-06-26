@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BoundedSubtype_DataType" version="4">
+  <OBJECT>
+    <ID name="BoundedSubtype_DataType" mc="Infrastructure.Stereotype" uid="d9ed8091-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Annexes::VSL::DataTypes" mc="Infrastructure.Profile" uid="d9ed808d-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/datatype.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.BoundedSubtype_DataType.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.DataType]]></ATT>
+      <ATT name="Name"><![CDATA[BoundedSubtype_DataType]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="BoundedSubtype_DataType_baseType" mc="Infrastructure.TagType" uid="d9ed8095-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.BoundedSubtype_DataType_baseType.label]]></ATT>
+            <ATT name="Name"><![CDATA[BoundedSubtype_DataType_baseType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BoundedSubtype_DataType_minValue" mc="Infrastructure.TagType" uid="d9ed8099-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.BoundedSubtype_DataType_minValue.label]]></ATT>
+            <ATT name="Name"><![CDATA[BoundedSubtype_DataType_minValue]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BoundedSubtype_DataType_maxValue" mc="Infrastructure.TagType" uid="d9ed809d-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.BoundedSubtype_DataType_maxValue.label]]></ATT>
+            <ATT name="Name"><![CDATA[BoundedSubtype_DataType_maxValue]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BoundedSubtype_DataType_isMinOpen" mc="Infrastructure.TagType" uid="d9ed80a1-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.BoundedSubtype_DataType_isMinOpen.label]]></ATT>
+            <ATT name="Name"><![CDATA[BoundedSubtype_DataType_isMinOpen]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BoundedSubtype_DataType_isMaxOpen" mc="Infrastructure.TagType" uid="d9ed80a5-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.BoundedSubtype_DataType_isMaxOpen.label]]></ATT>
+            <ATT name="Name"><![CDATA[BoundedSubtype_DataType_isMaxOpen]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwEndPoint_LinkEnd" version="4">
+  <OBJECT>
+    <ID name="HwEndPoint_LinkEnd" mc="Infrastructure.Stereotype" uid="5e0bd798-32a9-11df-9294-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwCommunication" mc="Infrastructure.Profile" uid="00fc43f7-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[MARTEDesigner/res/icons/connectorend.png]]></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/connectorend.png]]></ATT>
+      <ATT name="IsHidden">true</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwEndPoint_LinkEnd.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.LinkEnd]]></ATT>
+      <ATT name="Name"><![CDATA[HwEndPoint_LinkEnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="CommunicationEndPoint_LinkEnd" mc="Infrastructure.Stereotype" uid="cb6bf7aa-26ce-11df-8c53-0014224f9977"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="HwEndPoint_LinkEnd_connectedTo" mc="Infrastructure.TagType" uid="5e0bd799-32a9-11df-9294-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_LinkEnd_connectedTo.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_LinkEnd_connectedTo]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_LinkEnd_description" mc="Infrastructure.TagType" uid="4f631740-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_LinkEnd_description.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_LinkEnd_description]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_LinkEnd_p_HW_Services" mc="Infrastructure.TagType" uid="4f631741-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_LinkEnd_p_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_LinkEnd_p_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_LinkEnd_r_HW_Services" mc="Infrastructure.TagType" uid="4f631742-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_LinkEnd_r_HW_Services.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_LinkEnd_r_HW_Services]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_LinkEnd_ownedHW" mc="Infrastructure.TagType" uid="4f633e51-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_LinkEnd_ownedHW.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_LinkEnd_ownedHW]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HwEndPoint_LinkEnd_frequency" mc="Infrastructure.TagType" uid="4f633e52-92a9-11e0-a69d-0027103f347c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.HwEndPoint_LinkEnd_frequency.label]]></ATT>
+            <ATT name="Name"><![CDATA[HwEndPoint_LinkEnd_frequency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

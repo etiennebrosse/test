@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DurationConstraint_Constraint" version="4">
+  <OBJECT>
+    <ID name="DurationConstraint_Constraint" mc="Infrastructure.Stereotype" uid="fe852062-97b6-11e3-8772-0027103f347d"/>
+    <PID name="MARTE::MARTE_Foundations::Time" mc="Infrastructure.Profile" uid="dac1af0e-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTE/res/bmp/constraint.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.DurationConstraint_Constraint.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Constraint]]></ATT>
+      <ATT name="Name"><![CDATA[DurationConstraint_Constraint]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="DurationConstraint_Constraint_firstEvent" mc="Infrastructure.TagType" uid="1a8f1eef-97b7-11e3-8772-0027103f347d"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[2]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.DurationConstraint_Constraint_firstEvent.label]]></ATT>
+            <ATT name="Name"><![CDATA[DurationConstraint_Constraint_firstEvent]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

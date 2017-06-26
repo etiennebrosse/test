@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_Foundations::Time" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_Foundations::Time" mc="Infrastructure.Profile" uid="dac1af0e-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_Foundations::Time]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="ClockConstraint_Constraint" mc="Infrastructure.Stereotype" uid="db38e315-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="ClockType_Class" mc="Infrastructure.Stereotype" uid="dae571f0-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="Clock_AssociationEnd" mc="Infrastructure.Stereotype" uid="dae30f8b-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="Clock_Attribute" mc="Infrastructure.Stereotype" uid="dad723f3-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="Clock_Association" mc="Infrastructure.Stereotype" uid="dae30f8a-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="Clock_Instance" mc="Infrastructure.Stereotype" uid="df95dcf2-14cd-11df-9d54-0014222a9f79"/>
+        <COMPID name="Clock_Event" mc="Infrastructure.Stereotype" uid="6b5f54f4-9e85-11e1-9e75-0027103f347d"/>
+        <COMPID name="Clock_Link" mc="Infrastructure.Stereotype" uid="dfdb017b-14cd-11df-9d54-0014222a9f79"/>
+        <COMPID name="TimedConstraint_Constraint" mc="Infrastructure.Stereotype" uid="db3680c1-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="TimedDomain_NameSpace" mc="Infrastructure.Stereotype" uid="dad723f0-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="DurationConstraint_Constraint" mc="Infrastructure.Stereotype" uid="fe852062-97b6-11e3-8772-0027103f347d"/>
+        <COMPID name="IntervalConstraint_Constraint" mc="Infrastructure.Stereotype" uid="f338c407-97bd-11e3-b3af-0027103f347d"/>
+        <COMPID name="TimedDurationObservation_Constraint" mc="Infrastructure.Stereotype" uid="964bf953-35f7-11e1-9a03-0027103f347d"/>
+        <COMPID name="DurationObservation_Constraint" mc="Infrastructure.Stereotype" uid="fb23468a-3ac9-11e1-960b-0027103f347d"/>
+        <COMPID name="TimedInstantObservation_Note" mc="Infrastructure.Stereotype" uid="db400a08-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="TimedEvent_Event" mc="Infrastructure.Stereotype" uid="db4bf5a2-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="TimedProcessing_ActivityAction" mc="Infrastructure.Stereotype" uid="db57e13c-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="TimedProcessing_Behavior" mc="Infrastructure.Stereotype" uid="b507b8f9-1259-11df-8f55-0014222a9f79"/>
+        <COMPID name="TimedProcessing_Message" mc="Infrastructure.Stereotype" uid="b5245495-1259-11df-8f55-0014222a9f79"/>
+        <COMPID name="TimedValueSpecification_TaggedValue" mc="Infrastructure.Stereotype" uid="db341e70-0cce-11df-8525-001302895b2b"/>
+        <COMPID name="TimedObservation_Note" mc="Infrastructure.Stereotype" uid="65426dcf-2210-11df-b40d-0014224f9977"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

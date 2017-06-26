@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_AnalysisModel::SAM" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_AnalysisModel::SAM" mc="Infrastructure.Profile" uid="038258c0-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_AnalysisModel::SAM]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="SaAnalysisContext_Behavior" mc="Infrastructure.Stereotype" uid="8383d4b3-14ab-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaAnalysisContext_Class" mc="Infrastructure.Stereotype" uid="83483985-14ab-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaAnalysisContext_Collaboration" mc="Infrastructure.Stereotype" uid="0384bb10-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaAnalysisContext_Package" mc="Infrastructure.Stereotype" uid="0384bb11-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaAnalysisContext_Node" mc="Infrastructure.Stereotype" uid="8367384b-14ab-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaCommHost_Parameter" mc="Infrastructure.Stereotype" uid="039c9244-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaCommHost_AssociationEnd" mc="Infrastructure.Stereotype" uid="039c9245-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaCommHost_Attribute" mc="Infrastructure.Stereotype" uid="039c9247-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaCommHost_Link" mc="Infrastructure.Stereotype" uid="039c9249-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaCommHost_Instance" mc="Infrastructure.Stereotype" uid="039c924a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaCommHost_Association" mc="Infrastructure.Stereotype" uid="b3a8fff1-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaCommHost_Lifeline" mc="Infrastructure.Stereotype" uid="b3c59c4d-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaCommHost_Classifier" mc="Infrastructure.Stereotype" uid="b3e49b06-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaCommStep_ModelElement" mc="Infrastructure.Stereotype" uid="0ce4e8fb-14ac-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaEndtoEndFlow_ModelElement" mc="Infrastructure.Stereotype" uid="0384bb16-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaExecHost_AssociationEnd" mc="Infrastructure.Stereotype" uid="03a156e9-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaExecHost_Association" mc="Infrastructure.Stereotype" uid="f85b1781-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaExecHost_Attribute" mc="Infrastructure.Stereotype" uid="03a156eb-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaExecHost_Classifier" mc="Infrastructure.Stereotype" uid="f89914f3-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaExecHost_Instance" mc="Infrastructure.Stereotype" uid="03a156ee-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaExecHost_Link" mc="Infrastructure.Stereotype" uid="03a156ed-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaExecHost_Lifeline" mc="Infrastructure.Stereotype" uid="f87a163a-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaExecHost_Parameter" mc="Infrastructure.Stereotype" uid="f83c18c8-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaSchedObs_Constraint" mc="Infrastructure.Stereotype" uid="03930906-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaSharedResource_Parameter" mc="Infrastructure.Stereotype" uid="03956b4e-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaSharedResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="03956b4f-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaSharedResource_Attribute" mc="Infrastructure.Stereotype" uid="03956b51-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaSharedResource_Link" mc="Infrastructure.Stereotype" uid="03956b53-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaSharedResource_Instance" mc="Infrastructure.Stereotype" uid="03956b54-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="SaSharedResource_Association" mc="Infrastructure.Stereotype" uid="78104d4e-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaSharedResource_Lifeline" mc="Infrastructure.Stereotype" uid="782f4c07-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaSharedResource_Classifier" mc="Infrastructure.Stereotype" uid="7850ad1d-14ad-11df-9d54-0014222a9f79"/>
+        <COMPID name="SaStep_ModelElement" mc="Infrastructure.Stereotype" uid="c922136d-14ab-11df-9d54-0014222a9f79"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

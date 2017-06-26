@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwActuator_Parameter" version="4">
+  <OBJECT>
+    <ID name="HwActuator_Parameter" mc="Infrastructure.Stereotype" uid="88a37416-c7ac-11df-ad39-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwDevice" mc="Infrastructure.Profile" uid="012e54c2-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/parameter.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwActuator_Parameter.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Parameter]]></ATT>
+      <ATT name="Name"><![CDATA[HwActuator_Parameter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="HwI_O_Parameter" mc="Infrastructure.Stereotype" uid="0137ddf2-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

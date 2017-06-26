@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ComputingResource_Association" version="4">
+  <OBJECT>
+    <ID name="ComputingResource_Association" mc="Infrastructure.Stereotype" uid="0e60e94e-1019-11df-86fe-0014222a9f79"/>
+    <PID name="MARTE::MARTE_Foundations::GRM" mc="Infrastructure.Profile" uid="ff9dcedd-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/association.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.ComputingResource_Association.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Association]]></ATT>
+      <ATT name="Name"><![CDATA[ComputingResource_Association]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="MutualExclusionResource_Association" mc="Infrastructure.Stereotype" uid="586827f1-0f5a-11df-8c52-0014222a9f79"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

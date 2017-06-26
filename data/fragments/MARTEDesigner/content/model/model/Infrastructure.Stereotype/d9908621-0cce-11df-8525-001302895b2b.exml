@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dimension_Enumeration" version="4">
+  <OBJECT>
+    <ID name="Dimension_Enumeration" mc="Infrastructure.Stereotype" uid="d9908621-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Foundations::NFPs" mc="Infrastructure.Profile" uid="d8b2ce44-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/enumeration.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Dimension_Enumeration.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Enumeration]]></ATT>
+      <ATT name="Name"><![CDATA[Dimension_Enumeration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="Dimension_Enumeration_symbol" mc="Infrastructure.TagType" uid="d9908623-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Dimension_Enumeration_symbol.label]]></ATT>
+            <ATT name="Name"><![CDATA[Dimension_Enumeration_symbol]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Dimension_Enumeration_baseDimension" mc="Infrastructure.TagType" uid="d992e861-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Dimension_Enumeration_baseDimension.label]]></ATT>
+            <ATT name="Name"><![CDATA[Dimension_Enumeration_baseDimension]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Dimension_Enumeration_baseExponent" mc="Infrastructure.TagType" uid="d992e863-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Dimension_Enumeration_baseExponent.label]]></ATT>
+            <ATT name="Name"><![CDATA[Dimension_Enumeration_baseExponent]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

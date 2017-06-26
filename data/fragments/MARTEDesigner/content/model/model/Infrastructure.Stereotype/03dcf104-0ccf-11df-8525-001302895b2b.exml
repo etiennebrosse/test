@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Var_BindableInstance" version="4">
+  <OBJECT>
+    <ID name="Var_BindableInstance" mc="Infrastructure.Stereotype" uid="03dcf104-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Annexes::VSL::Variables" mc="Infrastructure.Profile" uid="03dcf102-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/bindableinstance.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.Var_BindableInstance.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.BindableInstance]]></ATT>
+      <ATT name="Name"><![CDATA[Var_BindableInstance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="Var_BindableInstance_dir" mc="Infrastructure.TagType" uid="03dcf107-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.Var_BindableInstance_dir.label]]></ATT>
+            <ATT name="Name"><![CDATA[Var_BindableInstance_dir]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

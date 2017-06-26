@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="relatedstatus_dependency" version="4">
+  <OBJECT>
+    <ID name="relatedstatus_dependency" mc="Infrastructure.Stereotype" uid="969fcd72-2157-433d-952c-ff56c3b56b60"/>
+    <PID name="CPSWarm" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.relatedstatus_dependency.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.Dependency]]></ATT>
+      <ATT name="Name"><![CDATA[relatedstatus_dependency]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="relatedstatus_dependency_status_information" mc="Infrastructure.TagType" uid="77cb6fb7-2fd5-424d-b936-5ba12e4f02b2"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.relatedstatus_dependency_status_information.label]]></ATT>
+            <ATT name="Name"><![CDATA[relatedstatus_dependency_status_information]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

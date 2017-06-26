@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SAM" version="4">
+  <OBJECT>
+    <ID name="SAM" mc="Standard.Package" uid="935cc11c-1c8e-11df-b664-001302895b2b"/>
+    <PID name="Profile_enum" mc="Standard.Package" uid="e7b2779b-1adf-11df-9074-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SAM]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="OptimallityCriterionKind" mc="Standard.Enumeration" uid="ddcb693c-1c8e-11df-b664-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[OptimallityCriterionKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="meetHardDeadlines" mc="Standard.EnumerationLiteral" uid="e99f5da4-1c8e-11df-b664-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[meetHardDeadlines]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="minimizeMissedDeadlines" mc="Standard.EnumerationLiteral" uid="ee80b1f4-1c8e-11df-b664-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[minimizeMissedDeadlines]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="minimizeMeanTardiness" mc="Standard.EnumerationLiteral" uid="ef063614-1c8e-11df-b664-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[minimizeMeanTardiness]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="undef" mc="Standard.EnumerationLiteral" uid="ef7644f8-1c8e-11df-b664-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[undef]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="other" mc="Standard.EnumerationLiteral" uid="f1426c54-1c8e-11df-b664-001302895b2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[other]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

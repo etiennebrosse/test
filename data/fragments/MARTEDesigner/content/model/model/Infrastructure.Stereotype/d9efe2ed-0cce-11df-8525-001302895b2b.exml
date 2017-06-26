@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ChoiceType_DataType" version="4">
+  <OBJECT>
+    <ID name="ChoiceType_DataType" mc="Infrastructure.Stereotype" uid="d9efe2ed-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Annexes::VSL::DataTypes" mc="Infrastructure.Profile" uid="d9ed808d-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/datatype.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.ChoiceType_DataType.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.DataType]]></ATT>
+      <ATT name="Name"><![CDATA[ChoiceType_DataType]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="ChoiceType_DataType_choiceAttrib" mc="Infrastructure.TagType" uid="d9efe2f1-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.ChoiceType_DataType_choiceAttrib.label]]></ATT>
+            <ATT name="Name"><![CDATA[ChoiceType_DataType_choiceAttrib]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ChoiceType_DataType_defaultAttrib" mc="Infrastructure.TagType" uid="d9efe2f5-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.ChoiceType_DataType_defaultAttrib.label]]></ATT>
+            <ATT name="Name"><![CDATA[ChoiceType_DataType_defaultAttrib]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

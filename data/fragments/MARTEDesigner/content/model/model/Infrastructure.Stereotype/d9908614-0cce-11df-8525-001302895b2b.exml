@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="NfpType_DataType" version="4">
+  <OBJECT>
+    <ID name="NfpType_DataType" mc="Infrastructure.Stereotype" uid="d9908614-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Foundations::NFPs" mc="Infrastructure.Profile" uid="d8b2ce44-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/datatype.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.NfpType_DataType.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.DataType]]></ATT>
+      <ATT name="Name"><![CDATA[NfpType_DataType]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="TupleType_DataType" mc="Infrastructure.Stereotype" uid="d9908613-0cce-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="NfpType_DataType_valueAttrib" mc="Infrastructure.TagType" uid="d9908618-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.NfpType_DataType_valueAttrib.label]]></ATT>
+            <ATT name="Name"><![CDATA[NfpType_DataType_valueAttrib]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="NfpType_DataType_unitAttrib" mc="Infrastructure.TagType" uid="d990861c-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.NfpType_DataType_unitAttrib.label]]></ATT>
+            <ATT name="Name"><![CDATA[NfpType_DataType_unitAttrib]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="NfpType_DataType_exprAttrib" mc="Infrastructure.TagType" uid="d9908620-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.NfpType_DataType_exprAttrib.label]]></ATT>
+            <ATT name="Name"><![CDATA[NfpType_DataType_exprAttrib]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

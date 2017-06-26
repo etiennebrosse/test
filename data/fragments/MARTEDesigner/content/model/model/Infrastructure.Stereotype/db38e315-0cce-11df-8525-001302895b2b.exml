@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ClockConstraint_Constraint" version="4">
+  <OBJECT>
+    <ID name="ClockConstraint_Constraint" mc="Infrastructure.Stereotype" uid="db38e315-0cce-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Foundations::Time" mc="Infrastructure.Profile" uid="dac1af0e-0cce-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/constraint.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.ClockConstraint_Constraint.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Constraint]]></ATT>
+      <ATT name="Name"><![CDATA[ClockConstraint_Constraint]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="NfpConstraint_Constraint" mc="Infrastructure.Stereotype" uid="d96f2592-0cce-11df-8525-001302895b2b"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="ClockConstraint_Constraint_isCoincidenceBased" mc="Infrastructure.TagType" uid="db38e317-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.ClockConstraint_Constraint_isCoincidenceBased.label]]></ATT>
+            <ATT name="Name"><![CDATA[ClockConstraint_Constraint_isCoincidenceBased]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ClockConstraint_Constraint_isPrecedenceBased" mc="Infrastructure.TagType" uid="db38e319-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.ClockConstraint_Constraint_isPrecedenceBased.label]]></ATT>
+            <ATT name="Name"><![CDATA[ClockConstraint_Constraint_isPrecedenceBased]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ClockConstraint_Constraint_isChronometricBased" mc="Infrastructure.TagType" uid="db3b4565-0cce-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.ClockConstraint_Constraint_isChronometricBased.label]]></ATT>
+            <ATT name="Name"><![CDATA[ClockConstraint_Constraint_isChronometricBased]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ClockConstraint_Constraint_on" mc="Infrastructure.TagType" uid="46afdb04-1259-11df-8f55-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.ClockConstraint_Constraint_on.label]]></ATT>
+            <ATT name="Name"><![CDATA[ClockConstraint_Constraint_on]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

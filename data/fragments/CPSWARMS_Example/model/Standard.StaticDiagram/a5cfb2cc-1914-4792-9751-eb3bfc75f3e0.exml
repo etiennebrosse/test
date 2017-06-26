@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Block diagram" version="4">
+  <OBJECT>
+    <ID name="Block diagram" mc="Standard.StaticDiagram" uid="a5cfb2cc-1914-4792-9751-eb3bfc75f3e0"/>
+    <PID name="Goals" mc="Standard.Package" uid="15edb0de-469f-4e59-ad3c-9d21bc60fff6"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">59</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[Block diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="" mc="Standard.Class" uid="b0f508ea-190a-47e7-b683-a344043eac74"/>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="9cbcce1f-65bf-42b2-b3a8-46bb1534195f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ct" mc="Standard.BindableInstance" uid="55d32127-052f-4e75-b897-9d1f25bf959b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ct" mc="Standard.BindableInstance" uid="aba45aa3-2c93-47a5-bb14-48ffba92cd73"/>
+        </REFOBJ>
+      </LINK>
+      <LINK relation="Extension">
+        <FOREIGNID name="BlockDiagram" mc="Infrastructure.Stereotype" uid="00bc42ac-0000-1016-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

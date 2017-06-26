@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SaEndtoEndFlow_ModelElement" version="4">
+  <OBJECT>
+    <ID name="SaEndtoEndFlow_ModelElement" mc="Infrastructure.Stereotype" uid="0384bb16-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_AnalysisModel::SAM" mc="Infrastructure.Profile" uid="038258c0-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.SaEndtoEndFlow_ModelElement.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[SaEndtoEndFlow_ModelElement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SaEndtoEndFlow_ModelElement_isSched" mc="Infrastructure.TagType" uid="0384bb17-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SaEndtoEndFlow_ModelElement_isSched.label]]></ATT>
+            <ATT name="Name"><![CDATA[SaEndtoEndFlow_ModelElement_isSched]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SaEndtoEndFlow_ModelElement_schSlack" mc="Infrastructure.TagType" uid="0384bb18-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SaEndtoEndFlow_ModelElement_schSlack.label]]></ATT>
+            <ATT name="Name"><![CDATA[SaEndtoEndFlow_ModelElement_schSlack]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SaEndtoEndFlow_ModelElement_endToEndT" mc="Infrastructure.TagType" uid="0384bb19-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SaEndtoEndFlow_ModelElement_endToEndT.label]]></ATT>
+            <ATT name="Name"><![CDATA[SaEndtoEndFlow_ModelElement_endToEndT]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SaEndtoEndFlow_ModelElement_endToEndD" mc="Infrastructure.TagType" uid="0384bb1a-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SaEndtoEndFlow_ModelElement_endToEndD.label]]></ATT>
+            <ATT name="Name"><![CDATA[SaEndtoEndFlow_ModelElement_endToEndD]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SaEndtoEndFlow_ModelElement_timing" mc="Infrastructure.TagType" uid="0384bb1b-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.SaEndtoEndFlow_ModelElement_timing.label]]></ATT>
+            <ATT name="Name"><![CDATA[SaEndtoEndFlow_ModelElement_timing]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

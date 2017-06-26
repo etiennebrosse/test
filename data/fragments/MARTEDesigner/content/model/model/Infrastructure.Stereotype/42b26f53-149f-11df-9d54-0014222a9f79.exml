@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GaAnalysisContext_Node" version="4">
+  <OBJECT>
+    <ID name="GaAnalysisContext_Node" mc="Infrastructure.Stereotype" uid="42b26f53-149f-11df-9d54-0014222a9f79"/>
+    <PID name="MARTE::MARTE_AnalysisModel::GQAM" mc="Infrastructure.Profile" uid="02644261-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/node.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.GaAnalysisContext_Node.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Node]]></ATT>
+      <ATT name="Name"><![CDATA[GaAnalysisContext_Node]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="Configuration_Node" mc="Infrastructure.Stereotype" uid="f8727b4d-1562-11df-b173-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="GaAnalysisContext_Node_contextParams" mc="Infrastructure.TagType" uid="42b26f54-149f-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaAnalysisContext_Node_contextParams.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaAnalysisContext_Node_contextParams]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaAnalysisContext_Node_workload" mc="Infrastructure.TagType" uid="42b26f55-149f-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaAnalysisContext_Node_workload.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaAnalysisContext_Node_workload]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GaAnalysisContext_Node_platform" mc="Infrastructure.TagType" uid="42b26f56-149f-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.GaAnalysisContext_Node_platform.label]]></ATT>
+            <ATT name="Name"><![CDATA[GaAnalysisContext_Node_platform]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

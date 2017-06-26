@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::HLAM" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::HLAM" mc="Infrastructure.Profile" uid="00c30c45-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::HLAM]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="PpUnit_Actor" mc="Infrastructure.Stereotype" uid="00c56ea8-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="PpUnit_Behavior" mc="Infrastructure.Stereotype" uid="aa02b950-0cea-11df-b742-001302895b2b"/>
+        <COMPID name="PpUnit_Class" mc="Infrastructure.Stereotype" uid="d2b2763b-0ce9-11df-b742-001302895b2b"/>
+        <COMPID name="PpUnit_Collaboration" mc="Infrastructure.Stereotype" uid="d356f87d-0ce9-11df-b742-001302895b2b"/>
+        <COMPID name="PpUnit_UseCase" mc="Infrastructure.Stereotype" uid="d3d7b779-0ce9-11df-b742-001302895b2b"/>
+        <COMPID name="RtAction_CallAction" mc="Infrastructure.Stereotype" uid="a13ac171-0ff9-11df-86fe-0014222a9f79"/>
+        <COMPID name="RtAction_OpaqueAction" mc="Infrastructure.Stereotype" uid="682d416d-14b3-11df-ad67-001302895b2b"/>
+        <COMPID name="RtAction_Operation" mc="Infrastructure.Stereotype" uid="00cef7db-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="RtAction_SendSignalAction" mc="Infrastructure.Stereotype" uid="6732ea1a-14b3-11df-ad67-001302895b2b"/>
+        <COMPID name="RtFeature_CallAction" mc="Infrastructure.Stereotype" uid="67430ee5-0ff8-11df-86fe-0014222a9f79"/>
+        <COMPID name="RtFeature_Message" mc="Infrastructure.Stereotype" uid="754992b2-0ff8-11df-86fe-0014222a9f79"/>
+        <COMPID name="RtFeature_OpaqueAction" mc="Infrastructure.Stereotype" uid="316c89a0-14b3-11df-ad67-001302895b2b"/>
+        <COMPID name="RtFeature_Operation" mc="Infrastructure.Stereotype" uid="00c7d0e4-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="RtFeature_Port" mc="Infrastructure.Stereotype" uid="5cbde35f-11a6-11df-b398-0014222a9f79"/>
+        <COMPID name="RtFeature_SendSignalAction" mc="Infrastructure.Stereotype" uid="3076f704-14b3-11df-ad67-001302895b2b"/>
+        <COMPID name="RtFeature_Signal" mc="Infrastructure.Stereotype" uid="8008dee0-0ff8-11df-86fe-0014222a9f79"/>
+        <COMPID name="RtService_Operation" mc="Infrastructure.Stereotype" uid="00cef7df-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="RtSpecification_Note" mc="Infrastructure.Stereotype" uid="b96d3dd7-1237-11df-8f55-0014222a9f79"/>
+        <COMPID name="RtUnit_Actor" mc="Infrastructure.Stereotype" uid="00c30c46-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="RtUnit_Behavior" mc="Infrastructure.Stereotype" uid="97dd8e9f-0cea-11df-b742-001302895b2b"/>
+        <COMPID name="RtUnit_Class" mc="Infrastructure.Stereotype" uid="4cd42cdf-0ce9-11df-b742-001302895b2b"/>
+        <COMPID name="RtUnit_Collaboration" mc="Infrastructure.Stereotype" uid="51e2c9c5-0ce9-11df-b742-001302895b2b"/>
+        <COMPID name="RtUnit_UseCase" mc="Infrastructure.Stereotype" uid="527dc29f-0ce9-11df-b742-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

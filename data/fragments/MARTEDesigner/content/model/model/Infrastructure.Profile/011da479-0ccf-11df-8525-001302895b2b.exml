@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::HRM::HwLogical::HwTiming" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwTiming" mc="Infrastructure.Profile" uid="011da479-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::HRM::HwLogical::HwTiming]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="HwClock_Association" mc="Infrastructure.Stereotype" uid="612a8492-10ae-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwClock_AssociationEnd" mc="Infrastructure.Stereotype" uid="01272db5-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwClock_Attribute" mc="Infrastructure.Stereotype" uid="01272db7-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwClock_Classifier" mc="Infrastructure.Stereotype" uid="61661f75-10ae-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwClock_Instance" mc="Infrastructure.Stereotype" uid="01272dba-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwClock_Lifeline" mc="Infrastructure.Stereotype" uid="61498331-10ae-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwClock_Link" mc="Infrastructure.Stereotype" uid="01272db9-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwClock_Parameter" mc="Infrastructure.Stereotype" uid="01272db4-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimer_Association" mc="Infrastructure.Stereotype" uid="4e67715f-10af-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwTimer_AssociationEnd" mc="Infrastructure.Stereotype" uid="012bf258-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimer_Attribute" mc="Infrastructure.Stereotype" uid="012bf25a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimer_Classifier" mc="Infrastructure.Stereotype" uid="4e9be547-10af-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwTimer_Instance" mc="Infrastructure.Stereotype" uid="012e54ac-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimer_Lifeline" mc="Infrastructure.Stereotype" uid="4e81ab53-10af-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwTimer_Link" mc="Infrastructure.Stereotype" uid="012e54ab-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimer_Parameter" mc="Infrastructure.Stereotype" uid="01299006-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimingResource_Association" mc="Infrastructure.Stereotype" uid="8a62fde0-10ae-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwTimingResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="01226911-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimingResource_Attribute" mc="Infrastructure.Stereotype" uid="01226913-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimingResource_Classifier" mc="Infrastructure.Stereotype" uid="8a99d40d-10ae-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwTimingResource_Instance" mc="Infrastructure.Stereotype" uid="01226916-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimingResource_Lifeline" mc="Infrastructure.Stereotype" uid="8a7f9a24-10ae-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwTimingResource_Link" mc="Infrastructure.Stereotype" uid="01226915-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwTimingResource_Parameter" mc="Infrastructure.Stereotype" uid="01226910-0ccf-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

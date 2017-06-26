@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ModeBehavior_StateMachine" version="4">
+  <OBJECT>
+    <ID name="ModeBehavior_StateMachine" mc="Infrastructure.Stereotype" uid="00c0a9ee-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_Foundations::CoreElements" mc="Infrastructure.Profile" uid="00b720b5-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/statemachine.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.ModeBehavior_StateMachine.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.StateMachine]]></ATT>
+      <ATT name="Name"><![CDATA[ModeBehavior_StateMachine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

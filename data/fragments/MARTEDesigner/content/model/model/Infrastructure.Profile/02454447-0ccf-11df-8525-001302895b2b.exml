@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::GCM" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::GCM" mc="Infrastructure.Profile" uid="02454447-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::GCM]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="ClientServerFeature_Operation" mc="Infrastructure.Stereotype" uid="0255f477-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="ClientServerPort_Port" mc="Infrastructure.Stereotype" uid="0247a680-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="ClientServerSpecification_Interface" mc="Infrastructure.Stereotype" uid="0255f476-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="DataEvent_Event" mc="Infrastructure.Stereotype" uid="0264424e-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="DataPool_AssociationEnd" mc="Infrastructure.Stereotype" uid="02644250-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="DataPool_Attribute" mc="Infrastructure.Stereotype" uid="02644252-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="DataPool_BindableInstance" mc="Infrastructure.Stereotype" uid="02644251-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="FlowPort_Port" mc="Infrastructure.Stereotype" uid="0247a67c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="FlowProperty_AssociationEnd" mc="Infrastructure.Stereotype" uid="0247a676-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="FlowProperty_Attribute" mc="Infrastructure.Stereotype" uid="0247a678-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="FlowProperty_BindableInstance" mc="Infrastructure.Stereotype" uid="0247a677-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="FlowSpecification_Interface" mc="Infrastructure.Stereotype" uid="0255f475-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="GCMInvocatingBehavior_Behavior" mc="Infrastructure.Stereotype" uid="044fadde-a329-11e1-8263-0027103f347d"/>
+        <COMPID name="GCMInvocationAction_ActivityAction" mc="Infrastructure.Stereotype" uid="70c383bc-a32a-11e1-8263-0027103f347d"/>
+        <COMPID name="GCMTrigger_Dependency" mc="Infrastructure.Stereotype" uid="025856b4-0ccf-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PaRunTInstance_ModelElement" version="4">
+  <OBJECT>
+    <ID name="PaRunTInstance_ModelElement" mc="Infrastructure.Stereotype" uid="03d367ad-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTE::MARTE_AnalysisModel::PAM" mc="Infrastructure.Profile" uid="03a3b95d-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.PaRunTInstance_ModelElement.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[PaRunTInstance_ModelElement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="PaRunTInstance_ModelElement_poolSize" mc="Infrastructure.TagType" uid="03d367ae-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.PaRunTInstance_ModelElement_poolSize.label]]></ATT>
+            <ATT name="Name"><![CDATA[PaRunTInstance_ModelElement_poolSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PaRunTInstance_ModelElement_unbddPool" mc="Infrastructure.TagType" uid="03d367af-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.PaRunTInstance_ModelElement_unbddPool.label]]></ATT>
+            <ATT name="Name"><![CDATA[PaRunTInstance_ModelElement_unbddPool]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PaRunTInstance_ModelElement_instance" mc="Infrastructure.TagType" uid="03d367b0-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.PaRunTInstance_ModelElement_instance.label]]></ATT>
+            <ATT name="Name"><![CDATA[PaRunTInstance_ModelElement_instance]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PaRunTInstance_ModelElement_host" mc="Infrastructure.TagType" uid="03d367b1-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.PaRunTInstance_ModelElement_host.label]]></ATT>
+            <ATT name="Name"><![CDATA[PaRunTInstance_ModelElement_host]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PaRunTInstance_ModelElement_utilization" mc="Infrastructure.TagType" uid="03d367b2-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.PaRunTInstance_ModelElement_utilization.label]]></ATT>
+            <ATT name="Name"><![CDATA[PaRunTInstance_ModelElement_utilization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PaRunTInstance_ModelElement_throughput" mc="Infrastructure.TagType" uid="03d367b3-0ccf-11df-8525-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.PaRunTInstance_ModelElement_throughput.label]]></ATT>
+            <ATT name="Name"><![CDATA[PaRunTInstance_ModelElement_throughput]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

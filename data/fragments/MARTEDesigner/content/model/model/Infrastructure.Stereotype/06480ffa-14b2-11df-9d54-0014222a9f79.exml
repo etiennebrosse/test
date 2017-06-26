@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PaResPassStep_ModelElement" version="4">
+  <OBJECT>
+    <ID name="PaResPassStep_ModelElement" mc="Infrastructure.Stereotype" uid="06480ffa-14b2-11df-9d54-0014222a9f79"/>
+    <PID name="MARTE::MARTE_AnalysisModel::PAM" mc="Infrastructure.Profile" uid="03a3b95d-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.PaResPassStep_ModelElement.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[PaResPassStep_ModelElement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="GaStep_ModelElement" mc="Infrastructure.Stereotype" uid="33653420-14a8-11df-9d54-0014222a9f79"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="PaResPassStep_ModelElement_resource" mc="Infrastructure.TagType" uid="06480ffb-14b2-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.PaResPassStep_ModelElement_resource.label]]></ATT>
+            <ATT name="Name"><![CDATA[PaResPassStep_ModelElement_resource]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PaResPassStep_ModelElement_resUnits" mc="Infrastructure.TagType" uid="06480ffc-14b2-11df-9d54-0014222a9f79"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.PaResPassStep_ModelElement_resUnits.label]]></ATT>
+            <ATT name="Name"><![CDATA[PaResPassStep_ModelElement_resUnits]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

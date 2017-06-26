@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hardwarespecification" version="4">
+  <OBJECT>
+    <ID name="hardwarespecification" mc="Infrastructure.Stereotype" uid="0ba1929e-1b79-4f5a-9bdc-6b06e06870ac"/>
+    <PID name="CPSWarm" mc="Infrastructure.Profile" uid="fb99423e-12d3-4505-926b-f150a22ec337"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/icons/hardwarespecification.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/icons/hardwarespecification.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.hardwarespecification.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Package]]></ATT>
+      <ATT name="Name"><![CDATA[hardwarespecification]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

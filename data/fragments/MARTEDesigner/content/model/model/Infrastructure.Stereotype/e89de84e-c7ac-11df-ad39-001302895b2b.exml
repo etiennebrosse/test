@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HwSensor_Link" version="4">
+  <OBJECT>
+    <ID name="HwSensor_Link" mc="Infrastructure.Stereotype" uid="e89de84e-c7ac-11df-ad39-001302895b2b"/>
+    <PID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwDevice" mc="Infrastructure.Profile" uid="012e54c2-0ccf-11df-8525-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[MARTEDesigner/res/icons/connector.png]]></ATT>
+      <ATT name="Icon"><![CDATA[MARTEDesigner/res/icons/connector.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[%stereotype.HwSensor_Link.label]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Link]]></ATT>
+      <ATT name="Name"><![CDATA[HwSensor_Link]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="HwI_O_Link" mc="Infrastructure.Stereotype" uid="0137ddf7-0ccf-11df-8525-001302895b2b"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

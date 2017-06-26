@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MARTE::MARTE_DesignModel::HRM::HwLogical::HwComputing" version="4">
+  <OBJECT>
+    <ID name="MARTE::MARTE_DesignModel::HRM::HwLogical::HwComputing" mc="Infrastructure.Profile" uid="00d15a43-0ccf-11df-8525-001302895b2b"/>
+    <PID name="MARTEDesigner" mc="Infrastructure.ModuleComponent" uid="24f58aa0-0ccc-11df-bc35-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MARTE::MARTE_DesignModel::HRM::HwLogical::HwComputing]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="HwASIC_Association" mc="Infrastructure.Stereotype" uid="b4666f29-10a3-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwASIC_AssociationEnd" mc="Infrastructure.Stereotype" uid="00e93161-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwASIC_Attribute" mc="Infrastructure.Stereotype" uid="00e93163-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwASIC_Classifier" mc="Infrastructure.Stereotype" uid="bbaee73f-10a3-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwASIC_Instance" mc="Infrastructure.Stereotype" uid="00e93166-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwASIC_Lifeline" mc="Infrastructure.Stereotype" uid="b6ae922a-10a3-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwASIC_Link" mc="Infrastructure.Stereotype" uid="00e93165-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwASIC_Parameter" mc="Infrastructure.Stereotype" uid="00e93160-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBranchPredictor_Association" mc="Infrastructure.Stereotype" uid="86a2b6a0-10a7-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBranchPredictor_AssociationEnd" mc="Infrastructure.Stereotype" uid="00fc43f1-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBranchPredictor_Attribute" mc="Infrastructure.Stereotype" uid="00fc43f3-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBranchPredictor_Classifier" mc="Infrastructure.Stereotype" uid="87368b16-10a7-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBranchPredictor_Instance" mc="Infrastructure.Stereotype" uid="00fc43f6-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBranchPredictor_Lifeline" mc="Infrastructure.Stereotype" uid="86d26684-10a7-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwBranchPredictor_Link" mc="Infrastructure.Stereotype" uid="00fc43f5-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwBranchPredictor_Parameter" mc="Infrastructure.Stereotype" uid="00fc43f0-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwComputingResource_Association" mc="Infrastructure.Stereotype" uid="6e135f18-10a4-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwComputingResource_AssociationEnd" mc="Infrastructure.Stereotype" uid="00d61ed1-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwComputingResource_Attribute" mc="Infrastructure.Stereotype" uid="00d61ed3-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwComputingResource_Classifier" mc="Infrastructure.Stereotype" uid="6f4c2f7f-10a4-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwComputingResource_Instance" mc="Infrastructure.Stereotype" uid="00d61ed6-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwComputingResource_Lifeline" mc="Infrastructure.Stereotype" uid="6eba8626-10a4-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwComputingResource_Link" mc="Infrastructure.Stereotype" uid="00d61ed5-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwComputingResource_Parameter" mc="Infrastructure.Stereotype" uid="00d61ed0-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwISA_Association" mc="Infrastructure.Stereotype" uid="39ef8fa9-10a7-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwISA_AssociationEnd" mc="Infrastructure.Stereotype" uid="00f77f4d-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwISA_Attribute" mc="Infrastructure.Stereotype" uid="00f77f4f-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwISA_Classifier" mc="Infrastructure.Stereotype" uid="3a37177f-10a7-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwISA_Instance" mc="Infrastructure.Stereotype" uid="00f77f52-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwISA_Lifeline" mc="Infrastructure.Stereotype" uid="3a10f12f-10a7-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwISA_Link" mc="Infrastructure.Stereotype" uid="00f77f51-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwISA_Parameter" mc="Infrastructure.Stereotype" uid="00f77f4c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwPLD_Association" mc="Infrastructure.Stereotype" uid="74234f38-10a5-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwPLD_AssociationEnd" mc="Infrastructure.Stereotype" uid="00f2baa8-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwPLD_Attribute" mc="Infrastructure.Stereotype" uid="00f2baaa-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwPLD_Classifier" mc="Infrastructure.Stereotype" uid="7495c7c8-10a5-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwPLD_Instance" mc="Infrastructure.Stereotype" uid="00f2baad-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwPLD_Lifeline" mc="Infrastructure.Stereotype" uid="745a28fd-10a5-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwPLD_Link" mc="Infrastructure.Stereotype" uid="00f2baac-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwPLD_Parameter" mc="Infrastructure.Stereotype" uid="00eb93b2-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwProcessor_Association" mc="Infrastructure.Stereotype" uid="087f01ce-10a3-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwProcessor_AssociationEnd" mc="Infrastructure.Stereotype" uid="00dae37a-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwProcessor_Attribute" mc="Infrastructure.Stereotype" uid="00dae37c-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwProcessor_Classifier" mc="Infrastructure.Stereotype" uid="1c1fb54e-10a3-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwProcessor_Instance" mc="Infrastructure.Stereotype" uid="00dae37f-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwProcessor_Lifeline" mc="Infrastructure.Stereotype" uid="1043e6ce-10a3-11df-81d9-0014222a9f79"/>
+        <COMPID name="HwProcessor_Link" mc="Infrastructure.Stereotype" uid="00dae37e-0ccf-11df-8525-001302895b2b"/>
+        <COMPID name="HwProcessor_Parameter" mc="Infrastructure.Stereotype" uid="00d3bc7e-0ccf-11df-8525-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
