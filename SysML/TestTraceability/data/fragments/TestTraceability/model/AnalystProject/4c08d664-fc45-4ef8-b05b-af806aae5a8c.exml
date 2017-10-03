@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TestTraceability" version="4">
+  <OBJECT>
+    <ID name="TestTraceability" mc="Standard.AnalystProject" uid="4c08d664-fc45-4ef8-b05b-af806aae5a8c"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TestTraceability]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="TestTraceability" mc="Standard.PropertyContainer" uid="208ea048-35c9-4ccd-be71-efd7b795c2e3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

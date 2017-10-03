@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TestTraceability" version="4">
+  <OBJECT>
+    <ID name="TestTraceability" mc="Standard.Project" uid="7245dafc-c75d-4791-abbf-9a9b582a4845"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[TestTraceability]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="TestTraceability" mc="Standard.DiagramSet" uid="01ba37dd-fe04-4610-b9f7-07a72b1ee4ff"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="testtraceability" mc="Standard.Package" uid="5105324e-e6e4-4393-bf8d-f76e40eb2172"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

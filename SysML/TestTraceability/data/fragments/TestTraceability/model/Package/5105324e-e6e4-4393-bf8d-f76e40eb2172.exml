@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="testtraceability" version="4">
+  <OBJECT>
+    <ID name="testtraceability" mc="Standard.Package" uid="5105324e-e6e4-4393-bf8d-f76e40eb2172"/>
+    <PID name="TestTraceability" mc="Standard.Project" uid="7245dafc-c75d-4791-abbf-9a9b582a4845"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[testtraceability]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
