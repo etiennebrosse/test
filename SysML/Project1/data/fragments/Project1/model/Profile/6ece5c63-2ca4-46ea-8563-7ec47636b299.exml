@@ -1,15 +1,16 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project1" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalProfile" version="4">
   <OBJECT>
-    <ID name="project1" mc="Standard.Package" uid="f32b185f-489d-4c83-8ada-56f1f0469258"/>
-    <PID name="Project1" mc="Standard.Project" uid="a98e2860-92d1-4cee-8d15-9ada8b8a3fbd"/>
+    <ID name="LocalProfile" mc="Standard.Profile" uid="6ece5c63-2ca4-46ea-8563-7ec47636b299"/>
+    <PID name="LocalModule" mc="Standard.ModuleComponent" uid="54d80bf8-8867-46ab-97d2-06e15b81b13a"/>
     <ATTRIBUTES>
+      <ATT name="JCode"></ATT>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[project1]]></ATT>
+      <ATT name="Name"><![CDATA[LocalProfile]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

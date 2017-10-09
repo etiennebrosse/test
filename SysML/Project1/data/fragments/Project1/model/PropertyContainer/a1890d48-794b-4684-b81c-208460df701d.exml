@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Project1" version="4">
   <OBJECT>
-    <ID name="Project1" mc="Standard.DiagramSet" uid="108bc18a-36bf-4489-bd2f-192c5a77ff77"/>
-    <PID name="Project1" mc="Standard.Project" uid="a98e2860-92d1-4cee-8d15-9ada8b8a3fbd"/>
+    <ID name="Project1" mc="Standard.PropertyContainer" uid="a1890d48-794b-4684-b81c-208460df701d"/>
+    <PID name="Project1" mc="Standard.AnalystProject" uid="d943c67c-12e1-4188-b56e-4aad570e8fc6"/>
     <ATTRIBUTES>
       <ATT name="Name"><![CDATA[Project1]]></ATT>
       <ATT name="status">1970354901745664</ATT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalModule" version="4">
   <OBJECT>
-    <ID name="LocalModule" mc="Standard.ModuleComponent" uid="8fd7f54c-5805-4066-827a-e4b22c046f7c"/>
+    <ID name="LocalModule" mc="Standard.ModuleComponent" uid="54d80bf8-8867-46ab-97d2-06e15b81b13a"/>
     <ATTRIBUTES>
       <ATT name="LicenseKey">0</ATT>
       <ATT name="MajVersion">0</ATT>
@@ -22,7 +22,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedProfile">
-        <COMPID name="LocalProfile" mc="Standard.Profile" uid="f848af94-a91d-466e-b099-fed6de5630ea"/>
+        <COMPID name="LocalProfile" mc="Standard.Profile" uid="6ece5c63-2ca4-46ea-8563-7ec47636b299"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
