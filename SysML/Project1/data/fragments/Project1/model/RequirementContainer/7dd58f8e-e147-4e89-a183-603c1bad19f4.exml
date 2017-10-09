@@ -13,6 +13,8 @@
         <COMPID name="Requirement" mc="Standard.Requirement" uid="0872cad9-47e2-4a84-a85a-dea2c3548ce8"/>
         <COMPID name="Requirement1" mc="Standard.Requirement" uid="ba3fab0d-bd17-4b8d-aad4-efba6ac196e5"/>
         <COMPID name="Requirement2" mc="Standard.Requirement" uid="fbbea823-cac8-43cb-ae59-bd1e776ce592"/>
+        <COMPID name="Requirement3" mc="Standard.Requirement" uid="23ba108f-ecbd-4fd7-a0f7-35cd73813cfc"/>
+        <COMPID name="Requirement4" mc="Standard.Requirement" uid="35ee1630-6a2e-4df7-b7fc-0b5370655635"/>
       </COMP>
       <COMP relation="AnalystProperties">
         <OBJECT>
