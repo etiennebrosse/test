@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirement" version="4">
+  <OBJECT>
+    <ID name="Requirement" mc="Standard.Requirement" uid="34dba566-52e3-4ef6-96fa-b856e6eefe44"/>
+    <PID name="Requirement Container" mc="Standard.RequirementContainer" uid="8096e6cb-e7a9-46dd-a6a0-9bb082ccdffe"/>
+    <ATTRIBUTES>
+      <ATT name="Version">0</ATT>
+      <ATT name="Definition"></ATT>
+      <ATT name="Name"><![CDATA[Requirement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="AnalystProperties">
+        <OBJECT>
+          <ID name="" mc="Standard.AnalystPropertyTable" uid="1e2dc5a2-f899-42cc-900c-a814169dd65d"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="Content"><![CDATA[#Mon Oct 09 14:05:46 CEST 2017
+Origin=\ 
+Risk=Low
+Cost=0
+Stability=Low
+Target\ Release=0
+Documentation=
+Benefit=Critical
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="Functionality" mc="Standard.PropertyTableDefinition" uid="00080cf0-0000-001a-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
