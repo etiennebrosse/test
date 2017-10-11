@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Architecture diagram1" version="4">
+  <OBJECT>
+    <ID name="Architecture diagram1" mc="Standard.ClassDiagram" uid="30b143b4-beaa-4ba1-b692-200facedd275"/>
+    <PID name="project1" mc="Standard.Package" uid="ba7e38ef-9483-4d16-9a30-72ad67b02860"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztU01PwzAM/StR78u6D0BIYwhWNCEKQxsgcUJuY0YgTabEg/Xfk64bsKFVAyG4cEri+NnP9nPncJYp9ozWSaMPggYPA3bY7QySR0yJSeFNAaN8ggeBsWOeGYFKGi4kjC1kHIUkY7kjIPnEUWGGmlz5TpdO/Ww0f0flO2AZPBp795Y0DLqdS2smaClnGjKfS0FuphQBgf+7ATXFBQk9VSqodzv1JeATdES5wmClhGZVCa7wdzw1FnmJ3YJfD1wKAsUy2cmMhni/ZZYLH2KBZDijKDn1HOfX4iI1mXTi1oqsl+VUFW5RAaHwPNZ6dl6Y2HNh8cwVOLeYBGuFSaPdStq1BAFq7QQatWR3v1lrhuE9pChEc2+nuts+Gp1p86JjSFCtJR6RlXrsjfW5tZK8UXiqeyabGCfJt/37oXoPUgmLRYRYuqJli2MjIpb6yW3vfjyOLLx4OjHkaFel1qrcluV+iBLvuCoi+AVZCfg7+/E11J+IS4oNKoj6PD66PRneHR/1zvrDwfVF9DPC2GLNPo7qXTQfJND+l8BvSuBqcPnTs9/49QoOFYB3]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Architecture diagram1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ArchitectureDiagram" mc="Standard.Stereotype" uid="4ce56474-e7a1-46e3-a5b0-a165d85cd3b6"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

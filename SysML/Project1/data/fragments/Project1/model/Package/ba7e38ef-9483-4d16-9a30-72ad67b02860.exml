@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project1" version="4">
+  <OBJECT>
+    <ID name="project1" mc="Standard.Package" uid="ba7e38ef-9483-4d16-9a30-72ad67b02860"/>
+    <PID name="Project1" mc="Standard.Project" uid="5922de1d-dac4-4f3a-96f2-88558d25d026"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="System" mc="Standard.Class" uid="71395f7d-fd63-4f41-be7f-952f9fcf4c2a"/>
+        <COMPID name="CComponent" mc="Standard.Class" uid="76fb46da-c58f-4ca7-8357-8707e809978b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="9de2c2b4-6a7f-49b9-9c71-2a67993fa9ba"/>
+        <COMPID name="Architecture diagram1" mc="Standard.ClassDiagram" uid="30b143b4-beaa-4ba1-b692-200facedd275"/>
+        <COMPID name="Architecture diagram2" mc="Standard.ClassDiagram" uid="061a9d6b-b693-4972-aaca-59301f6a1ac4"/>
+        <COMPID name="Architecture diagram3" mc="Standard.ClassDiagram" uid="372b3e19-b71a-496c-bef9-8744170765a4"/>
+        <COMPID name="Architecture diagram4" mc="Standard.ClassDiagram" uid="7bbe8782-13ef-4552-bcc8-fa9949493aa7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
