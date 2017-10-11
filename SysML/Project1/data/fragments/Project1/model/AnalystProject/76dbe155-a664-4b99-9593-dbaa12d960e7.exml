@@ -11,7 +11,7 @@
         <COMPID name="Project1" mc="Standard.PropertyContainer" uid="a67be3de-8b44-46ee-afcf-223ff9d580ea"/>
       </COMP>
       <COMP relation="RequirementRoot">
-        <COMPID name="Requirement Container" mc="Standard.RequirementContainer" uid="bf633d18-1c5d-4fa0-bb68-fba1d483a5cd"/>
+        <COMPID name="Requirement Container" mc="Standard.RequirementContainer" uid="fde8c6f9-59cb-4535-9f83-63b57304ed41"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
