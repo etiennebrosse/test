@@ -37,6 +37,9 @@ Documentation=
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="Product">
+        <COMPID name="Requirement diagram" mc="Standard.StaticDiagram" uid="fa6139a2-7084-476a-8cb0-3e64a59b3ecf"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
