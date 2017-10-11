@@ -15,6 +15,10 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="System" mc="Standard.Class" uid="c95ade18-43c2-4e4b-b8ed-9c9b9b72a92c"/>
+        <COMPID name="EComponent" mc="Standard.Class" uid="18d6e91a-b8d4-4aec-a216-2e48027eb9bc"/>
+        <COMPID name="EComponent1" mc="Standard.Class" uid="82354a34-4ec0-44b7-aa92-e50883eff65e"/>
+        <COMPID name="EComponent2" mc="Standard.Class" uid="3d979e3a-0963-419e-b54b-c24e3e591038"/>
+        <COMPID name="CComponent" mc="Standard.Class" uid="1444b15a-623e-4379-9fd2-134353ab85ec"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="0f2f7796-f6c0-4dba-9bd6-334ad629b49c"/>
