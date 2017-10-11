@@ -18,12 +18,14 @@
         <COMPID name="System1" mc="Standard.Class" uid="e3ed23f9-e3b1-481e-9f1f-a11a2400b5f9"/>
         <COMPID name="System2" mc="Standard.Class" uid="4752e0c2-0ef2-4c01-9988-da293c686346"/>
         <COMPID name="System3" mc="Standard.Class" uid="50160a30-9362-4c92-a76b-c4831e679202"/>
+        <COMPID name="System4" mc="Standard.Class" uid="7a7a6eae-6a82-4757-915b-263b32999186"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="bee4cc06-2b74-4463-a53f-a15a7995b789"/>
         <COMPID name="Architecture diagram1" mc="Standard.ClassDiagram" uid="4991ef2d-2c68-47f9-9cfb-a022d25e088a"/>
         <COMPID name="Architecture diagram2" mc="Standard.ClassDiagram" uid="514ce97f-a587-490c-9dd2-27953cbf6247"/>
         <COMPID name="Architecture diagram3" mc="Standard.ClassDiagram" uid="f88f2fdb-a288-4850-8528-83f8e7b26c04"/>
+        <COMPID name="Architecture diagram4" mc="Standard.ClassDiagram" uid="57ed16c4-0406-4577-8be6-54b8a99a4ed8"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
