@@ -17,11 +17,15 @@
         <COMPID name="System" mc="Standard.Class" uid="c3756ebd-0953-4fd3-af81-f9f56b6bf0ff"/>
         <COMPID name="CComponent" mc="Standard.Class" uid="ee731bcf-2b37-4ac7-b2b3-a60a2bcccc23"/>
         <COMPID name="CComponent1" mc="Standard.Class" uid="77047d88-5b9f-45b4-bc32-9f7d133bf937"/>
+        <COMPID name="System1" mc="Standard.Class" uid="13f0d4c8-61ef-48dd-80de-4dc35979217f"/>
+        <COMPID name="System2" mc="Standard.Class" uid="042bb382-1057-495b-9d9f-8b9999ff26cc"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="1d3df3cf-b467-46c4-8165-480b9df3357f"/>
         <COMPID name="Architecture diagram1" mc="Standard.ClassDiagram" uid="07492852-818b-490b-a16c-fe63f4880f39"/>
         <COMPID name="Architecture diagram2" mc="Standard.ClassDiagram" uid="7b9b8c9c-90b8-4d3b-936e-f9e27e8c1b96"/>
+        <COMPID name="Architecture diagram3" mc="Standard.ClassDiagram" uid="2d100cf1-4b76-4fa1-a342-0900314d2d4a"/>
+        <COMPID name="Architecture diagram4" mc="Standard.ClassDiagram" uid="dd8c9bc9-5458-4f44-96fc-acbb7af647ef"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
