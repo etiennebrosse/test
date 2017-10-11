@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Architecture diagram3" version="4">
+  <OBJECT>
+    <ID name="Architecture diagram3" mc="Standard.ClassDiagram" uid="86237d38-2812-49d4-9efd-fb5742625e9a"/>
+    <PID name="project1" mc="Standard.Package" uid="ba7e38ef-9483-4d16-9a30-72ad67b02860"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmlFv2jAQx79KlHdCEiAElXVqYeqqsbaCbdL2UpnkAK9OjGyzln762SFhhRaWJiFUVR6q4iP+245/59zl6H58CIj2BxjHNPygW4apax9Pu9fj3+AJDfvSpGtiOYcPOmVTI6A+EEwNH6MpQ4EBPhaUGVwgge8MIBBAKPiq7SUXXQSjqN1ftXUtQL8pu10Pauqn3RtG58DEUgtRIMciaEkXoo8Ekt/9QGQB8STCBSF6/bRbTzo86zoSSwL6xhLsfUvg6npueJSBseqbYn49xD3kg58M9ulBDGGScpQrKRH31OBB9MeXco7RR/UBh4J6c761yPpqOfsWzoAgAb6cx9Y9+6pM2h9lkTMniPN4JzTXsRttv+HWbNeya82O36x1YOLXJuNWu2k7dgs6aP/dlmriS0jvwwEaA9kaeCQYDqf66RnzZljI6S8YaPEdaXTr0aV7V0QJXIY9Gswpx0LuxQ79FFK9GSY+A6UwwFxs4NHIQLhH0OOjJDu6nbmIHsppoHCqYIi3yHLMk+jPNE9c89W0Nw9Ou0J95VeHhFRroWbL9RyotS1oSzo7Tm3sWm7Nmzim51huy2sXQedoyQW8JR5beXm8YThAbHkluxaMpnmSGUsnLZZS6mGZm81mxeaLil8RDhUYORltZ2BUqfI58mAGcseYpPUqsXyOLOVHBm65UDoVlC8qrrY/hSCf0ftb7D0TOqdyJBSu78cEEQ77lxpJ3cHynjK/ADWBvLtbeV8Y0P+oCbZIMzXywg68XgqNuWDIExlWuIbzib90sj2aOMcTHHl8b90YAsePaEzggtHFvHzXt8zK99+C7+d8EFlZ8lMk5ODjhYCpYk9ieZYYjgVj6hS1GBit7fitojFOVTdAyMJmPf63/yC1siSdShCpySfYXieGY2GbOtessD1sVA9iRv1DM5slMcWhjIlCGV7IWCV6ASSxvYxto8SWi1ylNlXJQ7yVNev1HJecnFYc71BMyMgbFGRJT1OReqyDtuRE1Xof0WqBZB76bM2SWaUi9hcN852v2UouJWdX7wTY4k9Utf0FY5uOaDtLYobDEFj0wiBCWTbyF1gKiA/sKj17GzRHSOQMDuwsqdcOMI8UDtgl5112Vek7SlRgZ8u4XkQV+JEigZJzq4rVNxEJPP9qaxzMf8gW9lCGIkf6UZ5XxI0Yqv9ECY0U1RA7U5oZoCmsS6FRlUf5qbKqcuhIWVdgFBn0bJfDU/htySlnVbDfoSiXSAgWaXz3PZRH084tY320kLNrgMM7vueA3Lr8fNpn6F7u5gAtpU9uutn+xD85NfyVADeIkpAHxoZiOQ/11/U6ys8R8TariRf1L4zB2c9Pw9vzs96Xi+H196t+0c/CnSpPt+ofNU9/gLj3ZUnFQNEMfLu+KS0Q+gs5U97o]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Architecture diagram3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ArchitectureDiagram" mc="Standard.Stereotype" uid="4ce56474-e7a1-46e3-a5b0-a165d85cd3b6"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
