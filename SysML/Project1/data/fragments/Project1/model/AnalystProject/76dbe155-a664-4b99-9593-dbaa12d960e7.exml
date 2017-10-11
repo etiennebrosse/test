@@ -10,9 +10,6 @@
       <COMP relation="PropertyRoot">
         <COMPID name="Project1" mc="Standard.PropertyContainer" uid="a67be3de-8b44-46ee-afcf-223ff9d580ea"/>
       </COMP>
-      <COMP relation="RequirementRoot">
-        <COMPID name="Requirement Container" mc="Standard.RequirementContainer" uid="efea4e11-3e9b-48a4-8ac1-c1fa08028249"/>
-      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
