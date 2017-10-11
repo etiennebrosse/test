@@ -19,6 +19,7 @@
         <COMPID name="System1" mc="Standard.Class" uid="5479e13f-5ad4-434d-a8a2-9c14c376b227"/>
         <COMPID name="System2" mc="Standard.Class" uid="3d8aec33-fe7d-4306-b3d9-db7fcf86082a"/>
         <COMPID name="CComponent1" mc="Standard.Class" uid="a43074f1-bae9-45a1-b7d6-5668332f0d4b"/>
+        <COMPID name="System3" mc="Standard.Class" uid="6266438f-bc59-48ed-b103-636d5190c1d1"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="9de2c2b4-6a7f-49b9-9c71-2a67993fa9ba"/>
