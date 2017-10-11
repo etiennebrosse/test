@@ -10,7 +10,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedRequirement">
-        <COMPID name="Requirement" mc="Standard.Requirement" uid="874f65e0-ae7d-4263-9f6a-6938680de8cf"/>
+        <COMPID name="Requirement" mc="Standard.Requirement" uid="e02fc2a1-a694-4da0-981d-d40e1df78c4b"/>
       </COMP>
       <COMP relation="AnalystProperties">
         <OBJECT>
@@ -36,7 +36,7 @@ Documentation=
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Requirement diagram" mc="Standard.StaticDiagram" uid="03dc8259-991a-45af-9e6b-15f1de6928d6"/>
+        <COMPID name="Requirement diagram" mc="Standard.StaticDiagram" uid="7ceaf19b-7bb0-43a3-a38e-69224a10fd35"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
