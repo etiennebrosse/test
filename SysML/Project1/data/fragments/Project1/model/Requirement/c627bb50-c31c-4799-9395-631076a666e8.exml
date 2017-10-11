@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirement1" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Require" version="4">
   <OBJECT>
-    <ID name="Requirement1" mc="Standard.Requirement" uid="c627bb50-c31c-4799-9395-631076a666e8"/>
+    <ID name="Require" mc="Standard.Requirement" uid="c627bb50-c31c-4799-9395-631076a666e8"/>
     <PID name="Requirement Container" mc="Standard.RequirementContainer" uid="8096e6cb-e7a9-46dd-a6a0-9bb082ccdffe"/>
     <ATTRIBUTES>
       <ATT name="Version">0</ATT>
       <ATT name="Definition"></ATT>
-      <ATT name="Name"><![CDATA[Requirement1]]></ATT>
+      <ATT name="Name"><![CDATA[Require]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
