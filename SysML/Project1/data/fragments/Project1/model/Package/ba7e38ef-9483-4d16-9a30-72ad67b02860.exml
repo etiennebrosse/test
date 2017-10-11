@@ -14,22 +14,10 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="System" mc="Standard.Class" uid="c3756ebd-0953-4fd3-af81-f9f56b6bf0ff"/>
-        <COMPID name="CComponent" mc="Standard.Class" uid="ee731bcf-2b37-4ac7-b2b3-a60a2bcccc23"/>
-        <COMPID name="CComponent1" mc="Standard.Class" uid="77047d88-5b9f-45b4-bc32-9f7d133bf937"/>
-        <COMPID name="System1" mc="Standard.Class" uid="13f0d4c8-61ef-48dd-80de-4dc35979217f"/>
-        <COMPID name="System2" mc="Standard.Class" uid="042bb382-1057-495b-9d9f-8b9999ff26cc"/>
-        <COMPID name="CComponent2" mc="Standard.Class" uid="d565426b-3ab1-4c13-8068-6662175e3782"/>
-        <COMPID name="System3" mc="Standard.Class" uid="5e04cf7e-edd7-443b-a3af-599807f525b7"/>
+        <COMPID name="System" mc="Standard.Class" uid="d7d2b28e-b00b-41c7-aa7e-f56a3d0a4973"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="1d3df3cf-b467-46c4-8165-480b9df3357f"/>
-        <COMPID name="Architecture diagram1" mc="Standard.ClassDiagram" uid="07492852-818b-490b-a16c-fe63f4880f39"/>
-        <COMPID name="Architecture diagram2" mc="Standard.ClassDiagram" uid="7b9b8c9c-90b8-4d3b-936e-f9e27e8c1b96"/>
-        <COMPID name="Architecture diagram3" mc="Standard.ClassDiagram" uid="2d100cf1-4b76-4fa1-a342-0900314d2d4a"/>
-        <COMPID name="Architecture diagram4" mc="Standard.ClassDiagram" uid="dd8c9bc9-5458-4f44-96fc-acbb7af647ef"/>
-        <COMPID name="Architecture diagram5" mc="Standard.ClassDiagram" uid="08f8e6a9-2772-4a6d-84b0-a9b19656967f"/>
-        <COMPID name="Architecture diagram6" mc="Standard.ClassDiagram" uid="d801419d-abc5-4211-8445-86e5810344b0"/>
+        <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="cfa2080a-624b-4fd5-9270-eabe7eb3dd7a"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
