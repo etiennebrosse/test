@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirement diagram" version="4">
+  <OBJECT>
+    <ID name="Requirement diagram" mc="Standard.StaticDiagram" uid="444c1371-cd03-4b4b-9b60-0924521665ad"/>
+    <PID name="Requirement Container" mc="Standard.RequirementContainer" uid="8096e6cb-e7a9-46dd-a6a0-9bb082ccdffe"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">6</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Requirement diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="requirement_diagram" mc="Standard.Stereotype" uid="01ec12fc-0000-0bfd-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="af4aab31-54c7-4244-aa4b-4830a7ccfb8a"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
