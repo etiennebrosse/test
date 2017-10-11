@@ -14,10 +14,10 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="System" mc="Standard.Class" uid="e68f5e5f-e584-47d7-a73a-bc9f33fe029a"/>
+        <COMPID name="System" mc="Standard.Class" uid="bc479c23-8601-4902-a813-71d9d439b702"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="98402963-1948-438e-b886-0eb5593974b1"/>
+        <COMPID name="Architecture diagram" mc="Standard.ClassDiagram" uid="bee4cc06-2b74-4463-a53f-a15a7995b789"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
