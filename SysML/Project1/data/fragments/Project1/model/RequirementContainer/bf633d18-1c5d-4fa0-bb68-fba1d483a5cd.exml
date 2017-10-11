@@ -11,6 +11,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedRequirement">
         <COMPID name="Requirement" mc="Standard.Requirement" uid="3b20d8dc-7525-4176-b58c-42fdfca0841f"/>
+        <COMPID name="Requirement1" mc="Standard.Requirement" uid="1d8a9392-7e64-46f3-8db4-2252bbdf444c"/>
       </COMP>
       <COMP relation="AnalystProperties">
         <OBJECT>
