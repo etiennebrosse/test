@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<fmiModelDescription fmiVersion="2.0" modelName="EComponent1" guid="82354a34-4ec0-44b7-aa92-e50883eff65e" generationTool="Modelio">
-    <CoSimulation modelIdentifier="EComponent1"/>
-    <ModelVariables/>
-    <ModelStructure>
-        <Outputs/>
-    </ModelStructure>
-</fmiModelDescription>
